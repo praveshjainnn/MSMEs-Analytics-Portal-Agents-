@@ -1,0 +1,23 @@
+# Core Web Framework
+dash==2.18.2
+dash-bootstrap-components==1.6.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.4
+
+# Visualization
+plotly==5.22.0
+
+# Machine Learning (used for IsolationForest & DecisionTreeRegressor)
+scikit-learn==1.4.2
+
+# Web Server (Production Deployment)
+gunicorn==21.2.0
+
+# Additional Dependencies (automatically installed with above, but listed for clarity)
+Flask==3.0.3
+Werkzeug==3.0.3
+
+# Optional: For better performance
+orjson==3.9.15

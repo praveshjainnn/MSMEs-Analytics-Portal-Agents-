@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 614978,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "691142",
+            "EnterpriseName": "KIRAN COLD DRINKS",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "DHANI SUNARAWALI, VILL KHEJROLI, TEH COMU, DIST JAIPUR,RAJASTHAN",
+            "State": "RAJASTHAN",
+            "District": "JAIPUR",
+            "PINCode": "303803",
+            "CommmenceDate": "26\/04\/2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 56302",
+            "TotalEmp": "2",
+            "InvestmentCost": "15.00",
+            "Dic_Name": "JAIPUR RURAL",
+            "RegistrationDate": "11\/05\/2016",
+            "LG_Dist_Code": "102"
+        },
+        {
+            "AID": "691323",
+            "EnterpriseName": "M\\S ANNAPURNA FABRICS",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "E-242, IIIrd PHASE, INDUSTRIAL AREA, BALOTRA",
+            "State": "RAJASTHAN",
+            "District": "BARMER",
+            "PINCode": "344022",
+            "CommmenceDate": "02\/05\/2003",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 13139",
+            "TotalEmp": "10",
+            "InvestmentCost": "30.00",
+            "Dic_Name": "BARMER",
+            "RegistrationDate": "11\/05\/2016",
+            "LG_Dist_Code": "90"
+        },
+        {
+            "AID": "691494",
+            "EnterpriseName": "SHRI MARUTI NANDAN ENTERPRISES PVT LTD",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Private Limited Company",
+            "PlantLocation": " 1) F-592 RIICO INDUSTRIAL AREA TEHSIL CHOMU JAIPURJAIPURRAJASTHAN; 2) F-43 RIICO INDUSTRIAL AREA TEHSIL CHOMU JAIPURJAIPURRAJASTHAN",
+            "Address": "F-43 RIICO INDUSTRIAL AREA MANDA TEHSIL CHOMU  JAIPUR 303801 RAJASTHAN",
+            "State": "RAJASTHAN",
+            "District": "JAIPUR",
+            "PINCode": "303801",
+            "CommmenceDate": "15\/06\/2009",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 22209",
+            "TotalEmp": "10",
+            "InvestmentCost": "24.00",
+            "Dic_Name": "JAIPUR RURAL",
+            "RegistrationDate": "11\/05\/2016",
+            "LG_Dist_Code": "102"
+        },
+        {
+            "AID": "691560",
+            "EnterpriseName": "Laxmi Enterpirses",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "Indrapuri Colony, Jalore",
+            "State": "RAJASTHAN",
+            "District": "JALORE",
+            "PINCode": "343001",
+            "CommmenceDate": "01\/09\/2015",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 46524",
+            "TotalEmp": "2",
+            "InvestmentCost": "15.00",
+            "Dic_Name": "JALORE",
+            "RegistrationDate": "11\/05\/2016",
+            "LG_Dist_Code": "104"
+        },
+        {
+            "AID": "691674",
+            "EnterpriseName": "DREAM TECHNOLOGY",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "A-19.3RD FLOOR GTC MALL AJMERI GATE MI ROAD",
+            "State": "RAJASTHAN",
+            "District": "JAIPUR",
+            "PINCode": "302001",
+            "CommmenceDate": "06\/11\/2015",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 62099",
+            "TotalEmp": "1",
+            "InvestmentCost": "3.00",
+            "Dic_Name": "JAIPUR URBAN",
+            "RegistrationDate": "11\/05\/2016",
+            "LG_Dist_Code": "102"
+        },
+        {
+            "AID": "691707",
+            "EnterpriseName": "M\/s Ayaaz Stone",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "Village &amp; Post Suket, Teh. Ramganjmandi, Distt. Kota",
+            "State": "RAJASTHAN",
+            "District": "KOTA",
+            "PINCode": "306459",
+            "CommmenceDate": "11\/05\/2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 23960",
+            "TotalEmp": "8",
+            "InvestmentCost": "15.00",
+            "Dic_Name": "KOTA",
+            "RegistrationDate": "11\/05\/2016",
+            "LG_Dist_Code": "109"
+        },
+        {
+            "AID": "691804",
+            "EnterpriseName": "SAGAR SPEED UDYOG",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "W N 28, SIDHMUKH MOR, RAJGARH",
+            "State": "RAJASTHAN",
+            "District": "CHURU",
+            "PINCode": "331023",
+            "CommmenceDate": "11\/05\/2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 24319",
+            "TotalEmp": "2",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "CHURU",
+            "RegistrationDate": "11\/05\/2016",
+            "LG_Dist_Code": "96"
+        },
+        {
+            "AID": "691880",
+            "EnterpriseName": "METALLIZING EQUIPMENT CO. PVT. LTD.",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Private Limited Company",
+            "PlantLocation": "NA",
+            "Address": "E-101, M.I.A., PHASE II, BASNI, JODHPUR",
+            "State": "RAJASTHAN",
+            "District": "JODHPUR",
+            "PINCode": "342005",
+            "CommmenceDate": "16\/06\/1975",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Medium",
+            "NIC5DigitCode": " 1) 28230",
+            "TotalEmp": "100",
+            "InvestmentCost": "697.00",
+            "Dic_Name": "JODHPUR",
+            "RegistrationDate": "11\/05\/2016",
+            "LG_Dist_Code": "107"
+        },
+        {
+            "AID": "691955",
+            "EnterpriseName": "Universal Services",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "B-35 Ganpati  Mall,Samtel Road,Bhiwadi",
+            "State": "RAJASTHAN",
+            "District": "ALWAR",
+            "PINCode": "301019",
+            "CommmenceDate": "15\/05\/2015",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 78100",
+            "TotalEmp": "7",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "BHIWADI",
+            "RegistrationDate": "11\/05\/2016",
+            "LG_Dist_Code": "87"
+        },
+        {
+            "AID": "691978",
+            "EnterpriseName": "SHRI SANWARIYA ENGINEERING &amp; TECHNOLOGY",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "PLOT NO. H-803, RIICO INDUSTRIAL AREA CHOPANKI, BHIWADI, DISTT. ALWAR RAJASTHAN",
+            "State": "RAJASTHAN",
+            "District": "ALWAR",
+            "PINCode": "301707",
+            "CommmenceDate": "06\/04\/2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 22209",
+            "TotalEmp": "10",
+            "InvestmentCost": "10.00",
+            "Dic_Name": "BHIWADI",
+            "RegistrationDate": "11\/05\/2016",
+            "LG_Dist_Code": "87"
+        }
+    ]
+}

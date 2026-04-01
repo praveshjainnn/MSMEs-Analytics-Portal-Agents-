@@ -1,0 +1,213 @@
+body {
+  background-color: #fcefdc;
+  /* Light yellowish beige background similar to ISRO portal */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
+}
+
+.header-container {
+  background-color: #fcfcfc;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  text-align: center;
+  color: #333;
+  font-weight: 700;
+  margin: 0;
+}
+
+.header-subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: #fcd55b;
+  /* Yellow bar */
+  padding: 10px 20px;
+  border-bottom: 1px solid #d4b044;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-label {
+  font-weight: bold;
+  color: #333;
+  font-size: 0.9rem;
+  margin-right: 5px;
+}
+
+.kpi-card {
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.kpi-card:hover {
+  transform: scale(1.02);
+}
+
+.kpi-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.kpi-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+/* Specific KPI Colors from ISRO image inspiration */
+.bg-grey {
+  background-color: #b0bec5;
+  color: #333;
+}
+
+.bg-red {
+  background-color: #d32f2f;
+}
+
+.bg-yellow {
+  background-color: #fbc02d;
+  color: #333;
+}
+
+.bg-green {
+  background-color: #388e3c;
+}
+
+.bg-cyan {
+  background-color: #00acc1;
+}
+
+.bg-blue {
+  background-color: #1976d2;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.section-card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  padding: 15px;
+  height: 100%;
+}
+
+.section-title {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #444;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.map-container {
+  height: 600px;
+  width: 100%;
+}
+
+.footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 5px;
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Custom Scrollbar for better look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Tab Styles to match the theme */
+.custom-tabs .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+
+/* DSS Specific Styles */
+.dss-sidebar {
+  background-color: #ffffff;
+  border-right: 2px solid #ddd;
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.dss-control-label {
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.dss-section-header {
+  background-color: #ffe0b2;
+  /* Light Orange */
+  padding: 8px;
+  font-weight: bold;
+  color: #bf360c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.dss-radio-group .form-check-label {
+  margin-right: 15px;
+  font-size: 0.9rem;
+}
+
+.highlight-red {
+  color: red;
+  font-weight: bold;
+}
+
+.highlight-green {
+  color: green;
+  font-weight: bold;
+}
+
+/* Custom Tabs for DSS Dashboard toggle */
+.dss-toggle-btn {
+  border-radius: 20px;
+  margin-right: 10px;
+}

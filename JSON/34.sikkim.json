@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 1049,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "8087346",
+            "EnterpriseName": "ENVIRO ASSOCIAATES & CONSULTANTS",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) NEAR D.C. COURT WARD NO 03 UPPER SICHEY GANGTOKEAST DISTRICTSIKKIM",
+            "Address": "NEAR D.C. COURT, WARD NO. 03, UPPER SICHEY, GANGTOK, EAST SIKKIM, PIN - 737101",
+            "State": "SIKKIM",
+            "District": "EAST DISTRICT",
+            "PINCode": "737101",
+            "CommmenceDate": "02-04-2015",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 42909",
+            "TotalEmp": "6",
+            "InvestmentCost": "50",
+            "Dic_Name": "GANGTOK",
+            "RegistrationDate": "23-11-2019",
+            "LG_Dist_Code": "225"
+        },
+        {
+            "AID": "8182531",
+            "EnterpriseName": "rajesh kumar kharka",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) s\/o man bdr kharka malbesay malbasey sorengWEST DISTRICTSIKKIM",
+            "Address": "8th mile budhang soreng malbasey west sikkim",
+            "State": "SIKKIM",
+            "District": "WEST DISTRICT",
+            "PINCode": "737121",
+            "CommmenceDate": "23-10-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 49224",
+            "TotalEmp": "1",
+            "InvestmentCost": "17",
+            "Dic_Name": "JORETHANG",
+            "RegistrationDate": "06-12-2019",
+            "LG_Dist_Code": "228"
+        },
+        {
+            "AID": "8183636",
+            "EnterpriseName": "Planet Safe Solutions",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) g flr Rai bas complex MG Marg GangtokEAST DISTRICTSIKKIM",
+            "Address": "4th Floor, Trishul Bldg\/Telephone Exch Deorali, Gangtok Sikkim ",
+            "State": "SIKKIM",
+            "District": "EAST DISTRICT",
+            "PINCode": "737102",
+            "CommmenceDate": "10-10-2010",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 62099; 2) 80200; 3) 95111; 4) 43212",
+            "TotalEmp": "1",
+            "InvestmentCost": "15",
+            "Dic_Name": "GANGTOK",
+            "RegistrationDate": "06-12-2019",
+            "LG_Dist_Code": "225"
+        },
+        {
+            "AID": "897768",
+            "EnterpriseName": "A A ENTERPRISE",
+            "SocialCategory": "SC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "MANDIR LINE, JUBLI LINE, SINGTAM, EAST SIKKIM 737134",
+            "State": "SIKKIM",
+            "District": "EAST DISTRICT",
+            "PINCode": "737134",
+            "CommmenceDate": "01-04-2011",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 24109",
+            "TotalEmp": "5",
+            "InvestmentCost": "5",
+            "Dic_Name": "GANGTOK",
+            "RegistrationDate": "21-06-2016",
+            "LG_Dist_Code": "225"
+        },
+        {
+            "AID": "1051968",
+            "EnterpriseName": "M\/s NATURE GIFT",
+            "SocialCategory": "SC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "S\/o Gopal Cintury, 1- Majhitar ward, Rangpo, East Sikkim",
+            "State": "SIKKIM",
+            "District": "EAST DISTRICT",
+            "PINCode": "737132",
+            "CommmenceDate": "30-04-2014",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 10795",
+            "TotalEmp": "8",
+            "InvestmentCost": "12",
+            "Dic_Name": "GANGTOK",
+            "RegistrationDate": "20-07-2016",
+            "LG_Dist_Code": "225"
+        },
+        {
+            "AID": "1147234",
+            "EnterpriseName": "AJAY BIOTECH (INDIA) LTD",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Public Limited Company",
+            "PlantLocation": "NA",
+            "Address": "1891\/3412 (P) &amp; 1893\/3414 (P), Vill- Duga Deorali sitay, P.O. Duga, P.S. Rangpo, East Sikkim.",
+            "State": "SIKKIM",
+            "District": "EAST DISTRICT",
+            "PINCode": "737132",
+            "CommmenceDate": "28-06-2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 20129; 2) 20211; 3) 20213",
+            "TotalEmp": "6",
+            "InvestmentCost": "96",
+            "Dic_Name": "GANGTOK",
+            "RegistrationDate": "06-08-2016",
+            "LG_Dist_Code": "225"
+        },
+        {
+            "AID": "1342949",
+            "EnterpriseName": "DZONGTSE",
+            "SocialCategory": "ST",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "KARTOK, PAKYONG, EAST SIKKIM",
+            "State": "SIKKIM",
+            "District": "EAST DISTRICT",
+            "PINCode": "737106",
+            "CommmenceDate": "11-11-2014",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 01193",
+            "TotalEmp": "5",
+            "InvestmentCost": "4",
+            "Dic_Name": "GANGTOK",
+            "RegistrationDate": "08-09-2016",
+            "LG_Dist_Code": "225"
+        },
+        {
+            "AID": "1551915",
+            "EnterpriseName": "Wachipa corner",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "Top Floor ,Udisha Building, PNGSS Road, Gangtok",
+            "State": "SIKKIM",
+            "District": "EAST DISTRICT",
+            "PINCode": "737101",
+            "CommmenceDate": "02-09-2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 56301",
+            "TotalEmp": "7",
+            "InvestmentCost": "7",
+            "Dic_Name": "GANGTOK",
+            "RegistrationDate": "04-10-2016",
+            "LG_Dist_Code": "225"
+        },
+        {
+            "AID": "1665091",
+            "EnterpriseName": "SAMIRUL ALAM",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "SINGTAM BAZAR, EAST SINGTAM",
+            "State": "SIKKIM",
+            "District": "EAST DISTRICT",
+            "PINCode": "737134",
+            "CommmenceDate": "15-01-2011",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 42901; 2) 42903; 3) 42909; 4) 42101; 5) 43211; 6) 43213; 7) 43219",
+            "TotalEmp": "20",
+            "InvestmentCost": "1",
+            "Dic_Name": "GANGTOK",
+            "RegistrationDate": "20-10-2016",
+            "LG_Dist_Code": "225"
+        },
+        {
+            "AID": "1903378",
+            "EnterpriseName": "GEETA KUMARI PRADHAN",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "SINGTAM BAZAR .PO. SINGTAM",
+            "State": "SIKKIM",
+            "District": "EAST DISTRICT",
+            "PINCode": "737134",
+            "CommmenceDate": "01-04-2015",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 42101; 2) 42201; 3) 42204; 4) 42202; 5) 42901; 6) 42903; 7) 42909; 8) 41002; 9) 78300; 10) 78200",
+            "TotalEmp": "14",
+            "InvestmentCost": "10",
+            "Dic_Name": "GANGTOK",
+            "RegistrationDate": "20-11-2016",
+            "LG_Dist_Code": "225"
+        }
+    ]
+}

@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 136018,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "8019281",
+            "EnterpriseName": "MAA MANGALA VARIETY STORE",
+            "SocialCategory": "OBC",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) SHERAGADA TAKARADA SHERAGADA SHERAGADAGANJAMODISHA",
+            "Address": "AT-TAKARADA PO-TAKARADA DIST-GANJAM BLUCK-SHERAGADA PIN-761106",
+            "State": "ODISHA",
+            "District": "GANJAM",
+            "PINCode": "761106",
+            "CommmenceDate": "10-08-2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 31001",
+            "TotalEmp": "4",
+            "InvestmentCost": "2",
+            "Dic_Name": "GANJAM",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "354"
+        },
+        {
+            "AID": "8016541",
+            "EnterpriseName": "BHAGABATI AGRO ENTERPRISE",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) PLOT NO- 603\/123 AT\/PO-CHANDAKA BHUBANESWAR, BHUBANESWARKHORDHAODISHA",
+            "Address": "PLOT NO- 603\/123, AT\/PO-CHANDAKA, VIA- BARANGA, BHUBANESWAR, ",
+            "State": "ODISHA",
+            "District": "KHORDHA",
+            "PINCode": "754005",
+            "CommmenceDate": "06-05-2014",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 33190; 2) 33112; 3) 33124",
+            "TotalEmp": "10",
+            "InvestmentCost": "50",
+            "Dic_Name": "KHORDHA",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "362"
+        },
+        {
+            "AID": "8016607",
+            "EnterpriseName": "JASPAL SINGH",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) PHD ROAD BHANJA COLONY BARBIL BARBILKENDUJHARODISHA",
+            "Address": "PHD ROAD, BHANJA COLONY, BARBIL",
+            "State": "ODISHA",
+            "District": "KENDUJHAR",
+            "PINCode": "758035",
+            "CommmenceDate": "14-08-2015",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 49231",
+            "TotalEmp": "5",
+            "InvestmentCost": "75",
+            "Dic_Name": "KENDUJHAR",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "361"
+        },
+        {
+            "AID": "8016681",
+            "EnterpriseName": "SANATAN ART AND CRAFT TRAINING CENTRE ",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) BASUDEIPUR JANAKADEIPUR MALATIPATPUR PURIPURIODISHA",
+            "Address": "AT-BASUDEIPUR,PO\/PS-CHANDANPUR,DIST-PURI,PIN752012",
+            "State": "ODISHA",
+            "District": "PURI",
+            "PINCode": "752012",
+            "CommmenceDate": "01-04-2010",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 90003",
+            "TotalEmp": "15",
+            "InvestmentCost": "3",
+            "Dic_Name": "PURI",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "369"
+        },
+        {
+            "AID": "8016786",
+            "EnterpriseName": "MAA SARALA DIGITAL",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) .. AT- NISCHINTAKOILI PS- NISCHINTAKOILI CUTTACKCUTTACKODISHA",
+            "Address": "AT+PO+PS- NISCHINTAKOILI",
+            "State": "ODISHA",
+            "District": "CUTTACK",
+            "PINCode": "754207",
+            "CommmenceDate": "28-12-2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 18119",
+            "TotalEmp": "4",
+            "InvestmentCost": "35",
+            "Dic_Name": "CUTTACK",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "350"
+        },
+        {
+            "AID": "8017820",
+            "EnterpriseName": "khageswar dalai",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 000 kacheri road lalbag cuttackCUTTACKODISHA",
+            "Address": "s\/o alekha kumar dalai at\/ kacheri road chandinichowk ps\/ lalbag cuttack pin 753002 odisha",
+            "State": "ODISHA",
+            "District": "CUTTACK",
+            "PINCode": "753002",
+            "CommmenceDate": "15-04-2014",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 56102",
+            "TotalEmp": "4",
+            "InvestmentCost": "1",
+            "Dic_Name": "CUTTACK",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "350"
+        },
+        {
+            "AID": "8019579",
+            "EnterpriseName": "Deepak Thanapati",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) Panchamahala Panchamahala Ulunda SonepurSONEPURODISHA",
+            "Address": "sonepur",
+            "State": "ODISHA",
+            "District": "SONEPUR",
+            "PINCode": "767017",
+            "CommmenceDate": "18-02-2014",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 01640",
+            "TotalEmp": "2",
+            "InvestmentCost": "10",
+            "Dic_Name": "SONEPUR",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "372"
+        },
+        {
+            "AID": "8019663",
+            "EnterpriseName": "SHOURYA ENTERPRISES",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) PLOT NO-696\/1 JAYDURGA NAGAR NEAR ICICI BANK, BHOMIKHAL BHUBANESWARKHORDHAODISHA",
+            "Address": "PLOT NO 696\/1, NEAR ICICI BANK, BHOMIKHAL BRANCH , JAYDURGA NAGAR, BHUBANESWAR",
+            "State": "ODISHA",
+            "District": "KHORDHA",
+            "PINCode": "751006",
+            "CommmenceDate": "08-08-2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 82110",
+            "TotalEmp": "5",
+            "InvestmentCost": "10",
+            "Dic_Name": "KHORDHA",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "362"
+        },
+        {
+            "AID": "8020882",
+            "EnterpriseName": "MAA LAXMI FLOUR MILL",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) PLOT-1615, RANGAMATIA,UPARASAHI BHUBANESWAR BHUBANESWARKHORDHAODISHA",
+            "Address": "KRINSHAKUNJA NIVAS,PLOT-2110\/3247, LANE NO-06,MAHADEV NAGAR, JHARPADA, BHUBANESWAR,",
+            "State": "ODISHA",
+            "District": "KHORDHA",
+            "PINCode": "751006",
+            "CommmenceDate": "14-11-2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 10611",
+            "TotalEmp": "12",
+            "InvestmentCost": "25",
+            "Dic_Name": "KHORDHA",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "362"
+        },
+        {
+            "AID": "8020916",
+            "EnterpriseName": "SRIKANTA READY MADE GARMENT",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) AT-SADANSA NIALI CUTTACK CUTTACKCUTTACKODISHA",
+            "Address": "DUTTATOTA PURI 752001",
+            "State": "ODISHA",
+            "District": "PURI",
+            "PINCode": "752001",
+            "CommmenceDate": "05-04-2018",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 13121; 2) 77294; 3) 14101",
+            "TotalEmp": "2",
+            "InvestmentCost": "2",
+            "Dic_Name": "PURI",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "369"
+        }
+    ]
+}

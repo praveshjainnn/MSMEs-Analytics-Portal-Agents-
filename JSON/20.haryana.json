@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 210977,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "5197223",
+            "EnterpriseName": "GUNJAN SHUTTERING STORE",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) WARD NO.11 GUNJAN SHUTTERING STORE, NARAINGARH NARAINGARH NARAINGARHAMBALAHARYANA",
+            "Address": "GUNJAN SHUTTERING STORE, NARAINGARH",
+            "State": "HARYANA",
+            "District": "AMBALA",
+            "PINCode": "134203",
+            "CommmenceDate": "01\/07\/2018",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 77308",
+            "TotalEmp": "2",
+            "InvestmentCost": "5.00",
+            "Dic_Name": "AMBALA",
+            "RegistrationDate": "10\/09\/2018",
+            "LG_Dist_Code": "58"
+        },
+        {
+            "AID": "5197341",
+            "EnterpriseName": "NANDI OIL MILL",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 114 DURJANPUR KAJLAN ROAD KAJLAN ON KAJLAN ROAD HISSARHISARHARYANA",
+            "Address": "114 DURJANPUR KAJLAN ROAD HISARVILLAGE DURJANPUR",
+            "State": "HARYANA",
+            "District": "HISAR",
+            "PINCode": "125052",
+            "CommmenceDate": "31\/08\/2018",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 10801",
+            "TotalEmp": "8",
+            "InvestmentCost": "11.00",
+            "Dic_Name": "HISAR",
+            "RegistrationDate": "10\/09\/2018",
+            "LG_Dist_Code": "63"
+        },
+        {
+            "AID": "5197395",
+            "EnterpriseName": "SHAKTI FEED",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Partnership",
+            "PlantLocation": " 1) VILLAGE DANAULI ROAD ASSANDHKARNALHARYANA",
+            "Address": "VILLAGE  DANAULI TEHSIL ASSANDH ",
+            "State": "HARYANA",
+            "District": "KARNAL",
+            "PINCode": "132039",
+            "CommmenceDate": "07\/09\/2018",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 10802",
+            "TotalEmp": "12",
+            "InvestmentCost": "225.00",
+            "Dic_Name": "KARNAL",
+            "RegistrationDate": "10\/09\/2018",
+            "LG_Dist_Code": "67"
+        },
+        {
+            "AID": "5197445",
+            "EnterpriseName": "DCC BUILDCON PRIVATE LIMITED",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Private Limited Company",
+            "PlantLocation": " 1) DHULL NIWAS BTM ROAD BHIWANI BHIWANIBHIWANIHARYANA; 2) M\/S SUGANDHA GROUP H DHIRANA ROAD HALWAS BHIWANIBHIWANIHARYANA",
+            "Address": "DHULL NIWAS, B T M ROAD",
+            "State": "HARYANA",
+            "District": "BHIWANI",
+            "PINCode": "127021",
+            "CommmenceDate": "01\/09\/2018",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 32909; 2) 27900; 3) 43213; 4) 35105",
+            "TotalEmp": "1",
+            "InvestmentCost": "24.00",
+            "Dic_Name": "BHIWANI",
+            "RegistrationDate": "10\/09\/2018",
+            "LG_Dist_Code": "59"
+        },
+        {
+            "AID": "5197815",
+            "EnterpriseName": "RAM NIVAS SHUTTERING STORE",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) gali prabhuta nand NEAR PRABHUTA ASHRAM rohtak ROHTAKROHTAKHARYANA",
+            "Address": "NEAR PRABHUTA ASHRAM JAGDISH COLONY ROHTAK 124001",
+            "State": "HARYANA",
+            "District": "ROHTAK",
+            "PINCode": "124001",
+            "CommmenceDate": "31\/12\/2014",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 81100",
+            "TotalEmp": "10",
+            "InvestmentCost": "15.00",
+            "Dic_Name": "ROHTAK",
+            "RegistrationDate": "10\/09\/2018",
+            "LG_Dist_Code": "73"
+        },
+        {
+            "AID": "5198053",
+            "EnterpriseName": "MALIK AUTO STORE",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 1 Old Rohtak Road SONIPAT SonepatSONIPATHARYANA",
+            "Address": "1 Old Rohtak Road Sonipat",
+            "State": "HARYANA",
+            "District": "SONIPAT",
+            "PINCode": "131001",
+            "CommmenceDate": "09\/09\/2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 32909",
+            "TotalEmp": "5",
+            "InvestmentCost": "5.00",
+            "Dic_Name": "SONIPAT",
+            "RegistrationDate": "10\/09\/2018",
+            "LG_Dist_Code": "75"
+        },
+        {
+            "AID": "5198494",
+            "EnterpriseName": "Pavni food court",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) On Asan Thirana Road Mahayudinpur Thirana Mahayudinpur Thirana PanipatPANIPATHARYANA",
+            "Address": "Village Mahayudinpur Thirana",
+            "State": "HARYANA",
+            "District": "PANIPAT",
+            "PINCode": "132113",
+            "CommmenceDate": "01\/01\/2018",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 56292",
+            "TotalEmp": "3",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "PANIPAT",
+            "RegistrationDate": "10\/09\/2018",
+            "LG_Dist_Code": "71"
+        },
+        {
+            "AID": "5198961",
+            "EnterpriseName": "Sonia Stamp & stationary",
+            "SocialCategory": "SC",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 80 Jiwan nagar part 2 Masjid. FaridabadFARIDABADHARYANA",
+            "Address": "Jiwan nagar part 2  sohna road peer baabaBALLABGARH",
+            "State": "HARYANA",
+            "District": "FARIDABAD",
+            "PINCode": "121004",
+            "CommmenceDate": "04\/10\/2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 61101",
+            "TotalEmp": "1",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "FARIDABAD",
+            "RegistrationDate": "10\/09\/2018",
+            "LG_Dist_Code": "60"
+        },
+        {
+            "AID": "5199396",
+            "EnterpriseName": "SONI GENRAL STORE",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) SONI GENRAL STORE MAHAVIR MARG NARNAUL NARNAULMAHENDRAGARHHARYANA",
+            "Address": "SONI GENRAL STORE MAHAVIR MARG NARNAUL",
+            "State": "HARYANA",
+            "District": "MAHENDRAGARH",
+            "PINCode": "123001",
+            "CommmenceDate": "01\/08\/2018",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 74909",
+            "TotalEmp": "2",
+            "InvestmentCost": "10.00",
+            "Dic_Name": "Narnaul",
+            "RegistrationDate": "11\/09\/2018",
+            "LG_Dist_Code": "69"
+        },
+        {
+            "AID": "5199575",
+            "EnterpriseName": "Shree Jee Tiles",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) - Shree Jee Tiles Bahadurgarh jhajjarJHAJJARHARYANA",
+            "Address": "13\/864, Nitin Sharma, 13\/864, Lane No-3, Vijay Nagar, Ballour road, near govt College, Bahadurgarh, Bahadurgarh, Jhajjar",
+            "State": "HARYANA",
+            "District": "JHAJJAR",
+            "PINCode": "124507",
+            "CommmenceDate": "26\/12\/2008",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 23952; 2) 42909; 3) 23923",
+            "TotalEmp": "15",
+            "InvestmentCost": "85.00",
+            "Dic_Name": "Bahadurgarh",
+            "RegistrationDate": "11\/09\/2018",
+            "LG_Dist_Code": "64"
+        }
+    ]
+}

@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 6520,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "8025857",
+            "EnterpriseName": "Chakrabarty Caring Center",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) UTTAR CHANDRAPUR UTTARCHANDRA MATARBARI UDAIPURGOMATITRIPURA",
+            "Address": "NH08",
+            "State": "TRIPURA",
+            "District": "GOMATI",
+            "PINCode": "799013",
+            "CommmenceDate": "01-06-2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 96098",
+            "TotalEmp": "2",
+            "InvestmentCost": "8",
+            "Dic_Name": "DIC, Gomati",
+            "RegistrationDate": "16-11-2019",
+            "LG_Dist_Code": "654"
+        },
+        {
+            "AID": "8028228",
+            "EnterpriseName": "Biswakarma Bamboo Handicrafts",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) Ward No-6 Panchayet Para Purba Nalchar NalcharSEPAHIJALATRIPURA",
+            "Address": "Panchayet Para, Near Panchayet Office,Purba Nalchar",
+            "State": "TRIPURA",
+            "District": "SEPAHIJALA",
+            "PINCode": "799115",
+            "CommmenceDate": "01-04-2017",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 16294",
+            "TotalEmp": "2",
+            "InvestmentCost": "1",
+            "Dic_Name": "SEPAHIJALA",
+            "RegistrationDate": "16-11-2019",
+            "LG_Dist_Code": "653"
+        },
+        {
+            "AID": "8089271",
+            "EnterpriseName": "M\/S. MUKHARJEE PAVER BLOCK & TILES",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 1 NOABADI PURBA BARJALA JIRANIAWEST TRIPURATRIPURA",
+            "Address": "PROP. SUJIT MUKHARJEE, JIRANIA BLOCK CHOWMUHANI, A.A.ROAD, JIRANIA, WEST TRIPURA, 799045",
+            "State": "TRIPURA",
+            "District": "WEST TRIPURA",
+            "PINCode": "799045",
+            "CommmenceDate": "01-11-2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 23952; 2) 23954; 3) 23955; 4) 23959",
+            "TotalEmp": "7",
+            "InvestmentCost": "15",
+            "Dic_Name": "WEST TRIPURA",
+            "RegistrationDate": "23-11-2019",
+            "LG_Dist_Code": "272"
+        },
+        {
+            "AID": "7965408",
+            "EnterpriseName": "MAA  TRIPURESWARI  ENTERPRISE",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) Siddhi Ashram Siddhi Ashram Siddhi Ashram AgartalaWEST TRIPURATRIPURA",
+            "Address": "Siddhi Ashram, Station Road,",
+            "State": "TRIPURA",
+            "District": "WEST TRIPURA",
+            "PINCode": "799003",
+            "CommmenceDate": "01-11-2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 24109",
+            "TotalEmp": "5",
+            "InvestmentCost": "2",
+            "Dic_Name": "WEST TRIPURA",
+            "RegistrationDate": "08-11-2019",
+            "LG_Dist_Code": "272"
+        },
+        {
+            "AID": "8043907",
+            "EnterpriseName": "ASIAN TIMES INFO",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) BARDOWALI NEAR CID OFFICE BARDOWALI AGARTALAWEST TRIPURATRIPURA",
+            "Address": "Bardowali, Agartala, Tripura West",
+            "State": "TRIPURA",
+            "District": "WEST TRIPURA",
+            "PINCode": "799003",
+            "CommmenceDate": "17-11-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 63122; 2) 63910; 3) 60200",
+            "TotalEmp": "20",
+            "InvestmentCost": "5",
+            "Dic_Name": "WEST TRIPURA",
+            "RegistrationDate": "18-11-2019",
+            "LG_Dist_Code": "272"
+        },
+        {
+            "AID": "8044337",
+            "EnterpriseName": "Radharani led manufacture",
+            "SocialCategory": "OBC",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) Dhaleswar Dhaleswar a.a road agartala opp taru shagha colb Dhaleswar AgartalaWEST TRIPURATRIPURA",
+            "Address": "DHALESWAR",
+            "State": "TRIPURA",
+            "District": "WEST TRIPURA",
+            "PINCode": "799007",
+            "CommmenceDate": "01-10-2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 32909",
+            "TotalEmp": "1",
+            "InvestmentCost": "2",
+            "Dic_Name": "WEST TRIPURA",
+            "RegistrationDate": "18-11-2019",
+            "LG_Dist_Code": "272"
+        },
+        {
+            "AID": "8045055",
+            "EnterpriseName": "M\/S SAMPAT MAL BAID",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) BAID PROPERTY SAKUNTALA ROAD , AGARTALA, W. TRIPURA-799001 WEST TRIPURA WEST TRIPURAWEST TRIPURATRIPURA",
+            "Address": "SUKANTALA ROAD, AGARTALA , TRIPURA[W]-799001 ",
+            "State": "TRIPURA",
+            "District": "WEST TRIPURA",
+            "PINCode": "799001",
+            "CommmenceDate": "01-04-1965",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 96098",
+            "TotalEmp": "9",
+            "InvestmentCost": "23",
+            "Dic_Name": "WEST TRIPURA",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "272"
+        },
+        {
+            "AID": "7995118",
+            "EnterpriseName": "Asha The Departmental Store",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) Ramnagar 6\/7 near Durga Chowmuhani Agartala Tripura westWEST TRIPURATRIPURA",
+            "Address": "TG Road, Ramnagar 6\/7 near Durga Chowmuhani, Agartala Tripura west- 799001",
+            "State": "TRIPURA",
+            "District": "WEST TRIPURA",
+            "PINCode": "799001",
+            "CommmenceDate": "13-05-2013",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 82990",
+            "TotalEmp": "5",
+            "InvestmentCost": "20",
+            "Dic_Name": "West Tripura",
+            "RegistrationDate": "13-11-2019",
+            "LG_Dist_Code": "272"
+        },
+        {
+            "AID": "8050483",
+            "EnterpriseName": "Rahaman Electronics Solution",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) - - Halhali, Kamalpur, DhalaiDHALAITRIPURA",
+            "Address": "Halhali, Kamalpur, Dhalai, Tripura-798286",
+            "State": "TRIPURA",
+            "District": "DHALAI",
+            "PINCode": "798286",
+            "CommmenceDate": "02-01-2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 82990",
+            "TotalEmp": "2",
+            "InvestmentCost": "1",
+            "Dic_Name": "District Industries Centre,Dhala",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "269"
+        },
+        {
+            "AID": "8050780",
+            "EnterpriseName": "HELAL UDDIN",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) NIL KALAGANGERPAR KADAMTALA DHARMANAGARNORTH TRIPURATRIPURA",
+            "Address": "KALAGANGERPAR, KADAMTALA, DHARMANAGAR",
+            "State": "TRIPURA",
+            "District": "NORTH TRIPURA",
+            "PINCode": "799261",
+            "CommmenceDate": "01-10-2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 23921",
+            "TotalEmp": "15",
+            "InvestmentCost": "25",
+            "Dic_Name": "NORTH TRIPURA",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "270"
+        }
+    ]
+}

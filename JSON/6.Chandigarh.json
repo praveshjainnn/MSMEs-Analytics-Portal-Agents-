@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 12716,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "8017346",
+            "EnterpriseName": "ACCOMBLISS PRIVATE LIMITED",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Private Limited Company",
+            "PlantLocation": " 1) SHOP NO 146 SECTOR 36-D CHANDIGARH CHANDIGARHCHANDIGARHCHANDIGARH",
+            "Address": "SHOP NO 146, SECTOR 36-D, CHANDIGARH",
+            "State": "CHANDIGARH",
+            "District": "CHANDIGARH",
+            "PINCode": "160036",
+            "CommmenceDate": "20-02-2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 90001; 2) 90002; 3) 90009; 4) 56210; 5) 73100",
+            "TotalEmp": "5",
+            "InvestmentCost": "25",
+            "Dic_Name": "CHANDIGARH",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "44"
+        },
+        {
+            "AID": "8025200",
+            "EnterpriseName": "Smile Every Mile",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) SCO 2441-2442, Chandigarh Business Center Sector 22 C ChandigarhCHANDIGARHCHANDIGARH",
+            "Address": "Sco 2441-2442, Ist Floor, Cabin 6, Chandigarh Business Center, Sector 22C, Chandigarh.",
+            "State": "CHANDIGARH",
+            "District": "CHANDIGARH",
+            "PINCode": "160022",
+            "CommmenceDate": "03-08-2018",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 79110",
+            "TotalEmp": "2",
+            "InvestmentCost": "1",
+            "Dic_Name": "CHANDIGARH",
+            "RegistrationDate": "16-11-2019",
+            "LG_Dist_Code": "44"
+        },
+        {
+            "AID": "8029011",
+            "EnterpriseName": "HOME WORK FACILITY MANAGEMENT",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) HOUSE NO. - 3926 IST FLOOR,  NEAR POLICE CHOWKI CHANDIGARH UT CHANDIGARHCHANDIGARHCHANDIGARH",
+            "Address": " HOUSE NO. 3926, NEAR POLICE CHOWKI, VILLAGE - MALOYA, U.T., CHANDIGARH - 160025",
+            "State": "CHANDIGARH",
+            "District": "CHANDIGARH",
+            "PINCode": "160025",
+            "CommmenceDate": "01-07-2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 82990; 2) 74909; 3) 82110; 4) 87900; 5) 96010; 6) 96098; 7) 81210; 8) 81299; 9) 81100; 10) 81300",
+            "TotalEmp": "5",
+            "InvestmentCost": "1",
+            "Dic_Name": "CHANDIGARH",
+            "RegistrationDate": "16-11-2019",
+            "LG_Dist_Code": "44"
+        },
+        {
+            "AID": "8046790",
+            "EnterpriseName": "H R ENTERPRISES",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) SCO 37 SCO 37 CHANDIGARH CHANDIGARHCHANDIGARHCHANDIGARH",
+            "Address": "SCO 37 SECTOR 41D CHANDIGARH",
+            "State": "CHANDIGARH",
+            "District": "CHANDIGARH",
+            "PINCode": "160036",
+            "CommmenceDate": "15-01-2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 13999",
+            "TotalEmp": "6",
+            "InvestmentCost": "10",
+            "Dic_Name": "CHANDIGARH",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "44"
+        },
+        {
+            "AID": "8045392",
+            "EnterpriseName": "COGNITIVE HEALTH TECHNOLOGIES",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Partnership",
+            "PlantLocation": " 1) SHOP NO 3 PLOT NO 166 SARANGPUR CHANDIGARHCHANDIGARHCHANDIGARH",
+            "Address": "SHOP NO 3, PLOT NO 166, SARANGPUR, SARANGPUR, CHANDIGARH",
+            "State": "CHANDIGARH",
+            "District": "CHANDIGARH",
+            "PINCode": "160014",
+            "CommmenceDate": "03-05-2017",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 32909",
+            "TotalEmp": "8",
+            "InvestmentCost": "25",
+            "Dic_Name": "CHANDIGARH",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "44"
+        },
+        {
+            "AID": "7981150",
+            "EnterpriseName": "HOTEL R.R VILLA",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) PLOT NO. 515 OPP.-RAILWAY STATION VILLAGE - DARIYA CHANDIGARHCHANDIGARHCHANDIGARH",
+            "Address": "HOTEL R.R.VILLA,PLOT NO-515,GALI NO.-3,VILLAGE-DARIYA,OPP.-RAILWAY STATION,CHANDIGARH",
+            "State": "CHANDIGARH",
+            "District": "CHANDIGARH",
+            "PINCode": "160102",
+            "CommmenceDate": "08-02-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 55101",
+            "TotalEmp": "2",
+            "InvestmentCost": "4",
+            "Dic_Name": "CHANDIGARH",
+            "RegistrationDate": "11-11-2019",
+            "LG_Dist_Code": "44"
+        },
+        {
+            "AID": "8007103",
+            "EnterpriseName": "DHAN LUXMI NAMKEEN & MATHI",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 1020\/ B DHAN LUXMI NAMKEEN AND MATHI CHANDIGARH CHANDIGARHCHANDIGARHCHANDIGARH",
+            "Address": "1020\/ B,VILLAGE-DHARIA, CHANDIGARH",
+            "State": "CHANDIGARH",
+            "District": "CHANDIGARH",
+            "PINCode": "160101",
+            "CommmenceDate": "04-02-2014",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 10712; 2) 10739",
+            "TotalEmp": "4",
+            "InvestmentCost": "4",
+            "Dic_Name": "CHANDIGARH",
+            "RegistrationDate": "14-11-2019",
+            "LG_Dist_Code": "44"
+        },
+        {
+            "AID": "8041867",
+            "EnterpriseName": "M\/s FITDRILL ENTERPRISES",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Partnership",
+            "PlantLocation": " 1) HOUSE NO. 3045 SECOND SECTOR- 27D CHANDIGARHCHANDIGARHCHANDIGARH",
+            "Address": "HOUSE NO. 3045, SECOND FLOOR, SECTOR- 27D ",
+            "State": "CHANDIGARH",
+            "District": "CHANDIGARH",
+            "PINCode": "160019",
+            "CommmenceDate": "11-11-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 85410; 2) 96095",
+            "TotalEmp": "2",
+            "InvestmentCost": "1",
+            "Dic_Name": "CHANDIGARH",
+            "RegistrationDate": "18-11-2019",
+            "LG_Dist_Code": "44"
+        },
+        {
+            "AID": "8042783",
+            "EnterpriseName": "APOSTROPHE ARCHITECTURE AND URBAN DESIGN PVT LTD ",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Public Limited Company",
+            "PlantLocation": " 1) House number-113 Sector 28A Chandigarh ChandigarhCHANDIGARHCHANDIGARH",
+            "Address": "House Number-113, Sector 28A Chandigarh ",
+            "State": "CHANDIGARH",
+            "District": "CHANDIGARH",
+            "PINCode": "160002",
+            "CommmenceDate": "17-01-2008",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 68100",
+            "TotalEmp": "7",
+            "InvestmentCost": "10",
+            "Dic_Name": "CHANDIGARH",
+            "RegistrationDate": "18-11-2019",
+            "LG_Dist_Code": "44"
+        },
+        {
+            "AID": "8045193",
+            "EnterpriseName": "SIPRO ENTERPRISES",
+            "SocialCategory": "OBC",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) SCO.189\/1 MOTOR MARKET CHANDIGARH CHANDIGARHCHANDIGARHCHANDIGARH",
+            "Address": "SCO.189\/1 , MOTOR MARKET , 48-C , CHANDIGARH , ",
+            "State": "CHANDIGARH",
+            "District": "CHANDIGARH",
+            "PINCode": "160047",
+            "CommmenceDate": "01-04-2018",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 74909",
+            "TotalEmp": "1",
+            "InvestmentCost": "1",
+            "Dic_Name": "CHANDIGARH",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "44"
+        }
+    ]
+}

@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 11403,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "8018151",
+            "EnterpriseName": "ARCIS INC",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Partnership",
+            "PlantLocation": " 1) 25 19-B ANNA NAGAR PONDICHERRYPONDICHERRYPUDUCHERRY",
+            "Address": "25, 19-B, SIXTH CROSS EXTENSION, ANNA NAGAR",
+            "State": "PUDUCHERRY",
+            "District": "PONDICHERRY",
+            "PINCode": "605005",
+            "CommmenceDate": "01-11-2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 14101",
+            "TotalEmp": "2",
+            "InvestmentCost": "1",
+            "Dic_Name": "PUDUCHERRY",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "600"
+        },
+        {
+            "AID": "8025499",
+            "EnterpriseName": "VIMAL STUDIO",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) No.129 (329) MG ROAD VIMAL STUDIO Pondicherry PondicherryPONDICHERRYPUDUCHERRY",
+            "Address": "No 129 (329) MG Road , Muthiyalpet Puducherry - 605003",
+            "State": "PUDUCHERRY",
+            "District": "PONDICHERRY",
+            "PINCode": "605003",
+            "CommmenceDate": "05-06-2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 74209",
+            "TotalEmp": "2",
+            "InvestmentCost": "7",
+            "Dic_Name": "PUDUCHERRY",
+            "RegistrationDate": "16-11-2019",
+            "LG_Dist_Code": "600"
+        },
+        {
+            "AID": "8026436",
+            "EnterpriseName": "VIMAL STUDIO",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 106 South Annaikarai street Pondicherry PondicherryPONDICHERRYPUDUCHERRY",
+            "Address": "No 129 (329) MG ROAD MUTHIYALPET PUDUCHERRY",
+            "State": "PUDUCHERRY",
+            "District": "PONDICHERRY",
+            "PINCode": "605003",
+            "CommmenceDate": "05-05-2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 74209",
+            "TotalEmp": "2",
+            "InvestmentCost": "8",
+            "Dic_Name": "PUDUCHERRY",
+            "RegistrationDate": "16-11-2019",
+            "LG_Dist_Code": "600"
+        },
+        {
+            "AID": "8047755",
+            "EnterpriseName": "Chitra fancy store",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 51 - mudaliarpet PondicherryPONDICHERRYPUDUCHERRY",
+            "Address": "51, man Kali Amman koil Street, mudaliarpet , Pondicherry,605004",
+            "State": "PUDUCHERRY",
+            "District": "PONDICHERRY",
+            "PINCode": "605004",
+            "CommmenceDate": "05-05-2014",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 82990",
+            "TotalEmp": "2",
+            "InvestmentCost": "1",
+            "Dic_Name": "PUDUCHERRY",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "600"
+        },
+        {
+            "AID": "7963987",
+            "EnterpriseName": "B.K TRADERS",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 68 OTTAMPALAYAM MAIN ROAD PUDUCHERRY PUDUCHERRYPONDICHERRYPUDUCHERRY",
+            "Address": "68, OTTAMPALAYM MAIN ROAD, OTTAMPALAYAM",
+            "State": "PUDUCHERRY",
+            "District": "PONDICHERRY",
+            "PINCode": "605110",
+            "CommmenceDate": "21-10-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 56291",
+            "TotalEmp": "3",
+            "InvestmentCost": "1",
+            "Dic_Name": "PUDUCHERRY",
+            "RegistrationDate": "08-11-2019",
+            "LG_Dist_Code": "600"
+        },
+        {
+            "AID": "7991973",
+            "EnterpriseName": "ABINAYA TYRE WORKS",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 95 KATTAPILLAI MARAIKAYAR THOTTAM KEEZHAIYUR KARAIKALKARAIKALPUDUCHERRY",
+            "Address": "140,NAGORE MAIN ROAD,POOSAIMANDAPAM,NERAVY,KARAIKAL",
+            "State": "PUDUCHERRY",
+            "District": "KARAIKAL",
+            "PINCode": "609606",
+            "CommmenceDate": "01-01-1992",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 52219",
+            "TotalEmp": "2",
+            "InvestmentCost": "5",
+            "Dic_Name": "KARAIKAL",
+            "RegistrationDate": "12-11-2019",
+            "LG_Dist_Code": "598"
+        },
+        {
+            "AID": "7991630",
+            "EnterpriseName": "ESS EM ENTERPRISES",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 7 9th CROSS STREET SARAM POST PUDUCHERRYPONDICHERRYPUDUCHERRY",
+            "Address": "7, 9th CROSS STREET,BRINDAVANAM,PUDUCHERRY - 605013",
+            "State": "PUDUCHERRY",
+            "District": "PONDICHERRY",
+            "PINCode": "605013",
+            "CommmenceDate": "17-12-2004",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 10799; 2) 56291",
+            "TotalEmp": "2",
+            "InvestmentCost": "10",
+            "Dic_Name": "PUDUCHERRY",
+            "RegistrationDate": "12-11-2019",
+            "LG_Dist_Code": "600"
+        },
+        {
+            "AID": "8006827",
+            "EnterpriseName": "IYYARKAI",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 3 SUNDARAMOORTHY VINAYAGAPURAM COMPLEX VILLIANUR PUDUCHERRYPONDICHERRYPUDUCHERRY",
+            "Address": "NO.3, SUNDARAMOORTHY VINAYAGAR COMPLEX, VILLUPURAM-PONDY MAIN ROAD, VILLIANUR, PUDUCHERRY - 605 110",
+            "State": "PUDUCHERRY",
+            "District": "PONDICHERRY",
+            "PINCode": "605110",
+            "CommmenceDate": "15-08-2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 10799; 2) 21009",
+            "TotalEmp": "2",
+            "InvestmentCost": "2",
+            "Dic_Name": "PUDUCHERRY",
+            "RegistrationDate": "14-11-2019",
+            "LG_Dist_Code": "600"
+        },
+        {
+            "AID": "8006181",
+            "EnterpriseName": "SADANA ENTERPRISE",
+            "SocialCategory": "SC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 4 - PIDARIKUPPAM PUDUCHERRYPONDICHERRYPUDUCHERRY",
+            "Address": "4, NEW STREET, PIDARIKUPPAM",
+            "State": "PUDUCHERRY",
+            "District": "PONDICHERRY",
+            "PINCode": "605107",
+            "CommmenceDate": "05-01-2018",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 96098; 2) 10409; 3) 10739; 4) 11045",
+            "TotalEmp": "2",
+            "InvestmentCost": "1",
+            "Dic_Name": "PUDUCHERRY",
+            "RegistrationDate": "14-11-2019",
+            "LG_Dist_Code": "600"
+        },
+        {
+            "AID": "8043605",
+            "EnterpriseName": "SRI VARSH AUTOMATION",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) NO.08 METTU STREET PONDICHERRY PONDICHERRYPONDICHERRYPUDUCHERRY",
+            "Address": "NO.08, METTU STREET, VILLIANUR",
+            "State": "PUDUCHERRY",
+            "District": "PONDICHERRY",
+            "PINCode": "605110",
+            "CommmenceDate": "01-07-2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 28299",
+            "TotalEmp": "5",
+            "InvestmentCost": "5",
+            "Dic_Name": "PUDUCHERRY",
+            "RegistrationDate": "18-11-2019",
+            "LG_Dist_Code": "600"
+        }
+    ]
+}

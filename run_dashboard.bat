@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies...
+pip install dash dash-bootstrap-components pandas plotly requests
+echo Starting MSME Dashboard...
+python app.py
+pause

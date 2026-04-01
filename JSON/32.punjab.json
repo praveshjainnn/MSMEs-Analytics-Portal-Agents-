@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 228000,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "781664",
+            "EnterpriseName": "M\/s ARORA INDUSTRY",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Partnership",
+            "PlantLocation": "NA",
+            "Address": "OPP. OMAXE CITY, BATHINDA ROAD, GONIANA MANDI-151001",
+            "State": "PUNJAB",
+            "District": "BATHINDA",
+            "PINCode": "151001",
+            "CommmenceDate": "28\/08\/2014",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 13111",
+            "TotalEmp": "25",
+            "InvestmentCost": "99.00",
+            "Dic_Name": "BATHINDA",
+            "RegistrationDate": "29\/05\/2016",
+            "LG_Dist_Code": "28"
+        },
+        {
+            "AID": "782987",
+            "EnterpriseName": "Snow White Woollen Mills Pvt Ltd",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Public Limited Company",
+            "PlantLocation": "NA",
+            "Address": "K-2, Textile Colony, Industrial Area A",
+            "State": "PUNJAB",
+            "District": "LUDHIANA",
+            "PINCode": "141003",
+            "CommmenceDate": "19\/08\/1994",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 13912",
+            "TotalEmp": "8",
+            "InvestmentCost": "6.00",
+            "Dic_Name": "LUDHIANA",
+            "RegistrationDate": "30\/05\/2016",
+            "LG_Dist_Code": "36"
+        },
+        {
+            "AID": "783071",
+            "EnterpriseName": "MVT International",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "K-2, Textile Colony, Industrial Area A",
+            "State": "PUNJAB",
+            "District": "LUDHIANA",
+            "PINCode": "141003",
+            "CommmenceDate": "05\/05\/2005",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 46411",
+            "TotalEmp": "3",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "LUDHIANA",
+            "RegistrationDate": "30\/05\/2016",
+            "LG_Dist_Code": "36"
+        },
+        {
+            "AID": "783355",
+            "EnterpriseName": "M\/s Shiva Cold Store",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "C-187-88, Industrial Focal Point Patiala",
+            "State": "PUNJAB",
+            "District": "PATIALA",
+            "PINCode": "147001",
+            "CommmenceDate": "09\/04\/1997",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 52101",
+            "TotalEmp": "50",
+            "InvestmentCost": "5.00",
+            "Dic_Name": "PATIALA",
+            "RegistrationDate": "30\/05\/2016",
+            "LG_Dist_Code": "41"
+        },
+        {
+            "AID": "783660",
+            "EnterpriseName": "TECHIE SAGE",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "TECHIE SAGEDHALIWAL COMPLEX NH - 95 MULLANPUR DAKHAMULLANPUR",
+            "State": "PUNJAB",
+            "District": "LUDHIANA",
+            "PINCode": "141101",
+            "CommmenceDate": "13\/03\/2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 85500",
+            "TotalEmp": "10",
+            "InvestmentCost": "13.00",
+            "Dic_Name": "LUDHIANA",
+            "RegistrationDate": "30\/05\/2016",
+            "LG_Dist_Code": "36"
+        },
+        {
+            "AID": "783831",
+            "EnterpriseName": "D.D. PROCESSORS",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "# 1250\/1, SARDAR NAGAR, BASTI JOHDEWAL.",
+            "State": "PUNJAB",
+            "District": "LUDHIANA",
+            "PINCode": "141008",
+            "CommmenceDate": "07\/06\/2011",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 13139",
+            "TotalEmp": "7",
+            "InvestmentCost": "8.00",
+            "Dic_Name": "LUDHIANA",
+            "RegistrationDate": "30\/05\/2016",
+            "LG_Dist_Code": "36"
+        },
+        {
+            "AID": "783898",
+            "EnterpriseName": "CONVENIENT PRINTERS",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "7\/2, MUBARAKPUR SHEKHE OLD, HOSHIARPUR ROAD,",
+            "State": "PUNJAB",
+            "District": "JALANDHAR",
+            "PINCode": "144025",
+            "CommmenceDate": "24\/11\/1997",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 18112; 2) 18119",
+            "TotalEmp": "7",
+            "InvestmentCost": "40.00",
+            "Dic_Name": "JALANDHAR",
+            "RegistrationDate": "30\/05\/2016",
+            "LG_Dist_Code": "34"
+        },
+        {
+            "AID": "784124",
+            "EnterpriseName": "JOSHI  SPORTS KAUHRIAN",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Partnership",
+            "PlantLocation": "NA",
+            "Address": "VILLAGE KAUHRIAN, TEHSIL SUNAM",
+            "State": "PUNJAB",
+            "District": "SANGRUR",
+            "PINCode": "148035",
+            "CommmenceDate": "01\/04\/2014",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 14309",
+            "TotalEmp": "2",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "MALERKOTLA",
+            "RegistrationDate": "30\/05\/2016",
+            "LG_Dist_Code": "43"
+        },
+        {
+            "AID": "784435",
+            "EnterpriseName": "ROYAL FOUNDRY UDYOG",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "3\/3, MUBARAKPUR SHEIKHE INDUSTRIAL AREA, OLD HOSHIARPUR ROAD",
+            "State": "PUNJAB",
+            "District": "JALANDHAR",
+            "PINCode": "144025",
+            "CommmenceDate": "02\/01\/2006",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 28132; 2) 24311",
+            "TotalEmp": "18",
+            "InvestmentCost": "40.00",
+            "Dic_Name": "JALANDHAR",
+            "RegistrationDate": "30\/05\/2016",
+            "LG_Dist_Code": "34"
+        },
+        {
+            "AID": "785127",
+            "EnterpriseName": "ADARSH ENTERPRISES",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "MUBARAKPUR SHEIKHE, OLD HOSHIARPUR ROAD",
+            "State": "PUNJAB",
+            "District": "JALANDHAR",
+            "PINCode": "144025",
+            "CommmenceDate": "21\/08\/1989",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 22199",
+            "TotalEmp": "5",
+            "InvestmentCost": "4.00",
+            "Dic_Name": "JALANDHAR",
+            "RegistrationDate": "30\/05\/2016",
+            "LG_Dist_Code": "34"
+        }
+    ]
+}

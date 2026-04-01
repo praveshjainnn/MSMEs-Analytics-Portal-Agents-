@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 940209,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "232932",
+            "EnterpriseName": "shree laxmi jwellrs",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Hindu Undivided Family",
+            "PlantLocation": "NA",
+            "Address": "arvind kumar jha s\/o - mohan jha manupaur madhubani bihar -847223",
+            "State": "BIHAR",
+            "District": "MADHUBANI",
+            "PINCode": "847223",
+            "CommmenceDate": "10\/02\/2008",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 32111",
+            "TotalEmp": "5",
+            "InvestmentCost": "10.00",
+            "Dic_Name": "MADHUBANI",
+            "RegistrationDate": "16\/02\/2016",
+            "LG_Dist_Code": "206"
+        },
+        {
+            "AID": "232951",
+            "EnterpriseName": "SHANTI KIRANA STORE",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "RASULPUR , BRAHAMPURA, MOTIPUR",
+            "State": "BIHAR",
+            "District": "MUZAFFARPUR",
+            "PINCode": "843111",
+            "CommmenceDate": "22\/03\/2010",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 47211",
+            "TotalEmp": "1",
+            "InvestmentCost": "3.00",
+            "Dic_Name": "MUZAFFARPUR",
+            "RegistrationDate": "16\/02\/2016",
+            "LG_Dist_Code": "208"
+        },
+        {
+            "AID": "233004",
+            "EnterpriseName": "SURABHI COMPULSORIES PRINTING PRESS",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "MAHNADPUR BALMI, MOTIPUR",
+            "State": "BIHAR",
+            "District": "MUZAFFARPUR",
+            "PINCode": "843111",
+            "CommmenceDate": "10\/02\/2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 18119",
+            "TotalEmp": "1",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "MUZAFFARPUR",
+            "RegistrationDate": "16\/02\/2016",
+            "LG_Dist_Code": "208"
+        },
+        {
+            "AID": "233029",
+            "EnterpriseName": "SUNIL MOTER VIKIELS WORK SHOP",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "VILL-PILAKHWAR MADHUBANI",
+            "State": "BIHAR",
+            "District": "MADHUBANI",
+            "PINCode": "847211",
+            "CommmenceDate": "01\/04\/2008",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 45200",
+            "TotalEmp": "2",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "MADHUBANI",
+            "RegistrationDate": "16\/02\/2016",
+            "LG_Dist_Code": "206"
+        },
+        {
+            "AID": "233030",
+            "EnterpriseName": "sunil kiran dukan",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "malighat",
+            "State": "BIHAR",
+            "District": "MUZAFFARPUR",
+            "PINCode": "842002",
+            "CommmenceDate": "22\/08\/2013",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 56291",
+            "TotalEmp": "2",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "MUZAFFARPUR",
+            "RegistrationDate": "16\/02\/2016",
+            "LG_Dist_Code": "208"
+        },
+        {
+            "AID": "233067",
+            "EnterpriseName": "Ashok Kumar Sharma",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "C\/o Sri M.P. Sharma, Ashok Nagar, Road 1B, Kankarbagh,Patna Pin:800020",
+            "State": "BIHAR",
+            "District": "PATNA",
+            "PINCode": "800020",
+            "CommmenceDate": "16\/03\/2000",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 62020",
+            "TotalEmp": "8",
+            "InvestmentCost": "20.00",
+            "Dic_Name": "PATNA",
+            "RegistrationDate": "16\/02\/2016",
+            "LG_Dist_Code": "212"
+        },
+        {
+            "AID": "233083",
+            "EnterpriseName": "Ram Kirana store",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "HARLOCHAN PUR SUKKI",
+            "State": "BIHAR",
+            "District": "VAISHALI",
+            "PINCode": "843114",
+            "CommmenceDate": "01\/01\/2006",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 47219",
+            "TotalEmp": "1",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "VAISHALI",
+            "RegistrationDate": "16\/02\/2016",
+            "LG_Dist_Code": "224"
+        },
+        {
+            "AID": "233095",
+            "EnterpriseName": "SHOES SHOP",
+            "SocialCategory": "SC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "VILL- SURAT GANJ SHANTRAVIDASH COLONY MADHUBANI",
+            "State": "BIHAR",
+            "District": "MADHUBANI",
+            "PINCode": "847211",
+            "CommmenceDate": "26\/02\/2000",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 47713",
+            "TotalEmp": "1",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "MADHUBANI",
+            "RegistrationDate": "16\/02\/2016",
+            "LG_Dist_Code": "206"
+        },
+        {
+            "AID": "233099",
+            "EnterpriseName": "Nandni Sringar &amp; General Store",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "sohpur,ward-11 Narahia",
+            "State": "BIHAR",
+            "District": "MADHUBANI",
+            "PINCode": "847108",
+            "CommmenceDate": "13\/05\/2011",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 47722",
+            "TotalEmp": "1",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "MADHUBANI",
+            "RegistrationDate": "16\/02\/2016",
+            "LG_Dist_Code": "206"
+        },
+        {
+            "AID": "233105",
+            "EnterpriseName": "M\/S - DILIP OLD SILVER METAL REFINERY WORKS SHOP",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "MOH - PHAL GALI SONARPATTI, PO - NAWADA,  BLOCK - NAWADA, DIST - NAWADA,",
+            "State": "BIHAR",
+            "District": "NAWADA",
+            "PINCode": "805110",
+            "CommmenceDate": "13\/02\/2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 07295",
+            "TotalEmp": "6",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "NAWADA",
+            "RegistrationDate": "16\/02\/2016",
+            "LG_Dist_Code": "210"
+        }
+    ]
+}

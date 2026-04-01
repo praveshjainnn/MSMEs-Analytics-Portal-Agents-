@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 261902,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "101508",
+            "EnterpriseName": "Safiul Telecom",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "Vill: Ishwaripur, P.O.: Suryapur, P.S.: Khardah",
+            "State": "WEST BENGAL",
+            "District": "NORTH 24 PRAGANAS",
+            "PINCode": "700121",
+            "CommmenceDate": "14\/06\/2013",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 61900",
+            "TotalEmp": "2",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "N. 24- PRAGANAS",
+            "RegistrationDate": "21\/12\/2015",
+            "LG_Dist_Code": "303"
+        },
+        {
+            "AID": "101574",
+            "EnterpriseName": "M\/s Puspakamal Wooden Furnitures",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "9th Mile, Thurbo T.E., Mirik",
+            "State": "WEST BENGAL",
+            "District": "DARJEELING",
+            "PINCode": "734214",
+            "CommmenceDate": "15\/06\/2009",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 31001",
+            "TotalEmp": "2",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "DARJEELING",
+            "RegistrationDate": "21\/12\/2015",
+            "LG_Dist_Code": "309"
+        },
+        {
+            "AID": "101660",
+            "EnterpriseName": "M\/s Suman Dairy Products",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "Batasia Busty, PO: Batasia, PS: Lodhoma, Darjeeling",
+            "State": "WEST BENGAL",
+            "District": "DARJEELING",
+            "PINCode": "734221",
+            "CommmenceDate": "18\/07\/2007",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 10504",
+            "TotalEmp": "2",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "DARJEELING",
+            "RegistrationDate": "21\/12\/2015",
+            "LG_Dist_Code": "309"
+        },
+        {
+            "AID": "101760",
+            "EnterpriseName": "MASON",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "VILL-GORAPARA,P.O-HANSRA,P.S-PANRUI",
+            "State": "WEST BENGAL",
+            "District": "BIRBHUM",
+            "PINCode": "731214",
+            "CommmenceDate": "25\/09\/2007",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 43309",
+            "TotalEmp": "7",
+            "InvestmentCost": "3.00",
+            "Dic_Name": "BIRBHUM",
+            "RegistrationDate": "21\/12\/2015",
+            "LG_Dist_Code": "307"
+        },
+        {
+            "AID": "101767",
+            "EnterpriseName": "S P ENTERPRISE",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "34\/C SATKARI MITRA LANE KOLKATA 700054",
+            "State": "WEST BENGAL",
+            "District": "KOLKOTA",
+            "PINCode": "700054",
+            "CommmenceDate": "04\/06\/2008",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 22199",
+            "TotalEmp": "2",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "KOLKOTA",
+            "RegistrationDate": "21\/12\/2015",
+            "LG_Dist_Code": "315"
+        },
+        {
+            "AID": "101779",
+            "EnterpriseName": "MASON",
+            "SocialCategory": "SC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "VILL-GORAPARA,P.O-HANSRA,P.S-PANRUI",
+            "State": "WEST BENGAL",
+            "District": "BIRBHUM",
+            "PINCode": "731214",
+            "CommmenceDate": "02\/02\/2010",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 43301",
+            "TotalEmp": "5",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "BIRBHUM",
+            "RegistrationDate": "21\/12\/2015",
+            "LG_Dist_Code": "307"
+        },
+        {
+            "AID": "101814",
+            "EnterpriseName": "HEALTH WOAKER",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Others",
+            "PlantLocation": "NA",
+            "Address": "VILL- GORAPARAPO-HANSRAPS-PANRUIDIST-BIRBHUM",
+            "State": "WEST BENGAL",
+            "District": "BIRBHUM",
+            "PINCode": "731214",
+            "CommmenceDate": "01\/01\/2010",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 32909",
+            "TotalEmp": "2",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "BIRBHUM",
+            "RegistrationDate": "21\/12\/2015",
+            "LG_Dist_Code": "307"
+        },
+        {
+            "AID": "101903",
+            "EnterpriseName": "FOOTWEAR SHOP",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Others",
+            "PlantLocation": "NA",
+            "Address": "Narasunda, Batikar, PANRUI",
+            "State": "WEST BENGAL",
+            "District": "BIRBHUM",
+            "PINCode": "731121",
+            "CommmenceDate": "01\/01\/2010",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 47713",
+            "TotalEmp": "2",
+            "InvestmentCost": "3.00",
+            "Dic_Name": "BIRBHUM",
+            "RegistrationDate": "21\/12\/2015",
+            "LG_Dist_Code": "307"
+        },
+        {
+            "AID": "101930",
+            "EnterpriseName": "MANTU CYCLE REPAIRING",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "VILL-CHHATAR BANDI,P.O-HANSRA,P.S-PANRUI",
+            "State": "WEST BENGAL",
+            "District": "BIRBHUM",
+            "PINCode": "731214",
+            "CommmenceDate": "18\/11\/2010",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 45200",
+            "TotalEmp": "2",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "BIRBHUM",
+            "RegistrationDate": "21\/12\/2015",
+            "LG_Dist_Code": "307"
+        },
+        {
+            "AID": "102128",
+            "EnterpriseName": "ODEUR D FLORA",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "TELI SARAK (BYE LANE) KUNDU LANE, POST BANSBERIA, PS MOGRA, DIST HOOGHLY",
+            "State": "WEST BENGAL",
+            "District": "HOOGHLY",
+            "PINCode": "712502",
+            "CommmenceDate": "01\/10\/2015",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 20238",
+            "TotalEmp": "3",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "HOOGHLY",
+            "RegistrationDate": "21\/12\/2015",
+            "LG_Dist_Code": "312"
+        }
+    ]
+}

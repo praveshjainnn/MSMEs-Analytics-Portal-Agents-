@@ -1,0 +1,357 @@
+{
+  "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+  "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+  "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+  "type": "catalog",
+  "org_type": "Central",
+  "org": [
+    "Ministry of Micro, Small and Medium Enterprises"
+  ],
+  "sector": [
+    "Small Scale",
+    "Micro",
+    "Medium"
+  ],
+  "visualizable": "1",
+  "active": "1",
+  "source": "data.gov.in",
+  "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+  "created": 1574145124,
+  "updated": 1580277793,
+  "updated_date": "2020-01-29T11:33:13Z",
+  "target_bucket": {
+    "index": "msme_daily_reg",
+    "type": "msme_daily_reg"
+  },
+  "field": [
+    {
+      "id": "AID",
+      "name": "AID",
+      "type": "integer"
+    },
+    {
+      "id": "EnterpriseName",
+      "name": "EnterpriseName",
+      "type": "keyword"
+    },
+    {
+      "id": "SocialCategory",
+      "name": "SocialCategory",
+      "type": "keyword"
+    },
+    {
+      "id": "Gender",
+      "name": "Gender",
+      "type": "keyword"
+    },
+    {
+      "id": "PH",
+      "name": "PH",
+      "type": "keyword"
+    },
+    {
+      "id": "OrganisationType",
+      "name": "OrganisationType",
+      "type": "keyword"
+    },
+    {
+      "id": "PlantLocation",
+      "name": "PlantLocation",
+      "type": "text"
+    },
+    {
+      "id": "Address",
+      "name": "Address",
+      "type": "text"
+    },
+    {
+      "id": "State",
+      "name": "State",
+      "type": "keyword"
+    },
+    {
+      "id": "District",
+      "name": "District",
+      "type": "keyword"
+    },
+    {
+      "id": "PINCode",
+      "name": "PINCode",
+      "type": "integer"
+    },
+    {
+      "id": "CommmenceDate",
+      "name": "CommmenceDate",
+      "type": "date"
+    },
+    {
+      "id": "MajorActivity",
+      "name": "MajorActivity",
+      "type": "keyword"
+    },
+    {
+      "id": "EnterpriseType",
+      "name": "EnterpriseType",
+      "type": "keyword"
+    },
+    {
+      "id": "NIC5DigitCode",
+      "name": "NIC5DigitCode",
+      "type": "text"
+    },
+    {
+      "id": "TotalEmp",
+      "name": "TotalEmp",
+      "type": "integer"
+    },
+    {
+      "id": "InvestmentCost",
+      "name": "InvestmentCost",
+      "type": "integer"
+    },
+    {
+      "id": "Dic_Name",
+      "name": "Dic_Name",
+      "type": "keyword"
+    },
+    {
+      "id": "RegistrationDate",
+      "name": "RegistrationDate",
+      "type": "date"
+    },
+    {
+      "id": "LG_Dist_Code",
+      "name": "LG_Dist_Code",
+      "type": "keyword"
+    }
+  ],
+  "message": "Resource lists",
+  "version": "2.2.0",
+  "status": "ok",
+  "total": 933,
+  "count": 10,
+  "limit": "10",
+  "offset": "0",
+  "records": [
+    {
+      "AID": "8049230",
+      "EnterpriseName": "NAHIM FOOTWEAR",
+      "SocialCategory": "General",
+      "Gender": "Male",
+      "PH": "No",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": " 1) 2/246 RANA STREET NANI DAMAN NANIDAMAN DAMANDAMANDAMAN AND DIU",
+      "Address": "SHOP NO 06 NEAR DMC MARKET KANSARWAD OPP.TAXI STAND NANI DAMAN DAMAN",
+      "State": "DAMAN AND DIU",
+      "District": "DAMAN",
+      "PINCode": "396210",
+      "CommmenceDate": "01-08-2019",
+      "MajorActivity": "Services",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 96098",
+      "TotalEmp": "1",
+      "InvestmentCost": "5",
+      "Dic_Name": "Moti Daman",
+      "RegistrationDate": "19-11-2019",
+      "LG_Dist_Code": "463"
+    },
+    {
+      "AID": "8046721",
+      "EnterpriseName": "JAY JOGANI ENGINEERS",
+      "SocialCategory": "General",
+      "Gender": "Male",
+      "PH": "No",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": " 1) H. NO 14-77/F/401 NIKETAN PRIDE NANI DAMAN DAMANDAMANDAMAN AND DIU",
+      "Address": "HOUSE NO. 14-77/F/4TH-1, FLAT NO. 401, NIKETAN PRIDE, DILIP NAGAR TINBATTI KATHIRIA, NANI DAMAN, DAMAN",
+      "State": "DAMAN AND DIU",
+      "District": "DAMAN",
+      "PINCode": "396210",
+      "CommmenceDate": "01-04-2014",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Small",
+      "NIC5DigitCode": " 1) 28292; 2) 28299; 3) 33200",
+      "TotalEmp": "5",
+      "InvestmentCost": "26",
+      "Dic_Name": "Moti Daman",
+      "RegistrationDate": "19-11-2019",
+      "LG_Dist_Code": "463"
+    },
+    {
+      "AID": "7964077",
+      "EnterpriseName": "UNIX COMPUTERS",
+      "SocialCategory": "General",
+      "Gender": "Male",
+      "PH": "No",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": " 1) 14-183/F-1,2,3,5,6 CHHIBA SHOPPING COMPLEX WING B KUNTA ROAD, NANI DAMAN DAMANDAMANDAMAN AND DIU",
+      "Address": "H NO 14-183/F-5, CHHIBA SHOPPING COMPLEX WING B, KATHERIA, KUNTA ROAD, NANI DAMAN, DAMAN",
+      "State": "DAMAN AND DIU",
+      "District": "DAMAN",
+      "PINCode": "396210",
+      "CommmenceDate": "01-11-2019",
+      "MajorActivity": "Services",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 85500; 2) 62099",
+      "TotalEmp": "7",
+      "InvestmentCost": "3",
+      "Dic_Name": "Moti Daman",
+      "RegistrationDate": "08-11-2019",
+      "LG_Dist_Code": "463"
+    },
+    {
+      "AID": "8083474",
+      "EnterpriseName": "Bhanushali Jayesh Chandulal",
+      "SocialCategory": "General",
+      "Gender": "Male",
+      "PH": "No",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": " 1) Survey No. 644/23, First Floor, Village Dabhel, Nani Daman, DamanDAMANDAMAN AND DIU",
+      "Address": "Survey No. 644/23, First Floor,  Agrawal industrial Estate, Village Dabhel, Nani Daman, Daman 396215",
+      "State": "DAMAN AND DIU",
+      "District": "DAMAN",
+      "PINCode": "396215",
+      "CommmenceDate": "10-06-2015",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 22209",
+      "TotalEmp": "5",
+      "InvestmentCost": "4",
+      "Dic_Name": "Moti Daman",
+      "RegistrationDate": "23-11-2019",
+      "LG_Dist_Code": "463"
+    },
+    {
+      "AID": "8060965",
+      "EnterpriseName": " SAIKRUPA ENTERPRISES",
+      "SocialCategory": "OBC",
+      "Gender": "Male",
+      "PH": "No",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": " 1) HOUSE NO 105/3 MARWAD NANI DAMAN DAMANDAMANDAMAN AND DIU",
+      "Address": "HOUSE NO 105/3 MARWAR BHANDARWAD",
+      "State": "DAMAN AND DIU",
+      "District": "DAMAN",
+      "PINCode": "396210",
+      "CommmenceDate": "28-07-2017",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 28221",
+      "TotalEmp": "3",
+      "InvestmentCost": "10",
+      "Dic_Name": "Moti Daman",
+      "RegistrationDate": "20-11-2019",
+      "LG_Dist_Code": "463"
+    },
+    {
+      "AID": "7987300",
+      "EnterpriseName": "SAIFUDDIN AZIZ KALLA",
+      "SocialCategory": "General",
+      "Gender": "Male",
+      "PH": "No",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": " 1) H No O 1/437 Taiyabi Manzil NANI DAMAN DamanDAMANDAMAN AND DIU",
+      "Address": "H NO 1/437, TAIYABI MANZIL, ZAPABAR, NANI DAMAN ",
+      "State": "DAMAN AND DIU",
+      "District": "DAMAN",
+      "PINCode": "396210",
+      "CommmenceDate": "07-11-2019",
+      "MajorActivity": "Services",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 95210",
+      "TotalEmp": "2",
+      "InvestmentCost": "5",
+      "Dic_Name": "Moti Daman",
+      "RegistrationDate": "12-11-2019",
+      "LG_Dist_Code": "463"
+    },
+    {
+      "AID": "7986596",
+      "EnterpriseName": "NARAYAN SEA FOOD",
+      "SocialCategory": "General",
+      "Gender": "Female",
+      "PH": "No",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": " 1) 1749/9 DHOLA WADI SOUDWADI,WANAKBARA DIUDIUDAMAN AND DIU",
+      "Address": "1749/9 DHOLA WADI VANAKBARA SOUDWADI, WANAKBARA DIU-362570 DAMAN AND DIU ",
+      "State": "DAMAN AND DIU",
+      "District": "DIU",
+      "PINCode": "362570",
+      "CommmenceDate": "01-04-2018",
+      "MajorActivity": "Services",
+      "EnterpriseType": "Small",
+      "NIC5DigitCode": " 1) 96098",
+      "TotalEmp": "5",
+      "InvestmentCost": "100",
+      "Dic_Name": "Moti Daman",
+      "RegistrationDate": "12-11-2019",
+      "LG_Dist_Code": "464"
+    },
+    {
+      "AID": "7999113",
+      "EnterpriseName": "ARIHANT TECHNOPLAST",
+      "SocialCategory": "General",
+      "Gender": "Male",
+      "PH": "No",
+      "OrganisationType": "Partnership",
+      "PlantLocation": " 1) GALA NO 9, GR FLOOR, AVIS UDYOG BHAVAN DABHEL NANI DAMANDAMANDAMAN AND DIU; 2) S NO 724/1, GALA NO F-3 AN S-1, I AN II FLOOR, AVIS INDL. EST, DABHEL NANI DAMANDAMANDAMAN AND DIU; 3) GALA NO 11 AVIS UDYOG BHAVAN DABHEL DAMANDAMANDAMAN AND DIU",
+      "Address": "GALA NO 9, GROUND FLOOR, AVIS UDYOG BHAVAN, RINGANWADA, DABHEL, DAMAN",
+      "State": "DAMAN AND DIU",
+      "District": "DAMAN",
+      "PINCode": "396210",
+      "CommmenceDate": "01-04-2008",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Small",
+      "NIC5DigitCode": " 1) 32909",
+      "TotalEmp": "20",
+      "InvestmentCost": "144",
+      "Dic_Name": "Moti Daman",
+      "RegistrationDate": "13-11-2019",
+      "LG_Dist_Code": "463"
+    },
+    {
+      "AID": "8099211",
+      "EnterpriseName": "SATYAM PLASTIC",
+      "SocialCategory": "General",
+      "Gender": "Male",
+      "PH": "No",
+      "OrganisationType": "Partnership",
+      "PlantLocation": " 1) 669-A CLASSIC INDL ESTATE YADAV OMPLEX, DAMANDAMANDAMAN AND DIU",
+      "Address": "SURVEY NO-168, PLOT NO-107, DABHEL INDL ESTATE,DABHEL, DAMAN",
+      "State": "DAMAN AND DIU",
+      "District": "DAMAN",
+      "PINCode": "396210",
+      "CommmenceDate": "13-08-2015",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Small",
+      "NIC5DigitCode": " 1) 22203",
+      "TotalEmp": "8",
+      "InvestmentCost": "72",
+      "Dic_Name": "Moti Daman",
+      "RegistrationDate": "25-11-2019",
+      "LG_Dist_Code": "463"
+    },
+    {
+      "AID": "8180472",
+      "EnterpriseName": "Tailoring Work",
+      "SocialCategory": "General",
+      "Gender": "Female",
+      "PH": "No",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": " 1) 02 Alfala Complex Khariwad Nani DamanDAMANDAMAN AND DIU",
+      "Address": "02\tAlfala Complex   Khariwad\tNani Daman   396210\t",
+      "State": "DAMAN AND DIU",
+      "District": "DAMAN",
+      "PINCode": "396210",
+      "CommmenceDate": "19-08-2019",
+      "MajorActivity": "Services",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 74101",
+      "TotalEmp": "1",
+      "InvestmentCost": "1",
+      "Dic_Name": "Moti Daman",
+      "RegistrationDate": "06-12-2019",
+      "LG_Dist_Code": "463"
+    }
+  ]
+}

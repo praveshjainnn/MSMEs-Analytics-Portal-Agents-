@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 855617,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "1573765",
+            "EnterpriseName": "VIJAY TRADERS",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "55,  KARTIK NAGAR, OPP. NAROL COURT, NAROL",
+            "State": "GUJARAT",
+            "District": "AHMADABAD",
+            "PINCode": "382405",
+            "CommmenceDate": "01\/04\/2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 47591",
+            "TotalEmp": "5",
+            "InvestmentCost": "5.00",
+            "Dic_Name": "AHMEDABAD",
+            "RegistrationDate": "06\/10\/2016",
+            "LG_Dist_Code": "438"
+        },
+        {
+            "AID": "1573927",
+            "EnterpriseName": "SHRI KHODIYAR TRADERS",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "A1\/107,OMKAR RESIDENCY,OPP KALPTARU RESI,B\/H RAJDHANITENA.NIRANT CHOKDI,VASTRA,AHMEDABAD-382418",
+            "State": "GUJARAT",
+            "District": "AHMADABAD",
+            "PINCode": "382418",
+            "CommmenceDate": "06\/10\/2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 47890",
+            "TotalEmp": "1",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "AHMEDABAD",
+            "RegistrationDate": "06\/10\/2016",
+            "LG_Dist_Code": "438"
+        },
+        {
+            "AID": "1573957",
+            "EnterpriseName": "NAVPAD TEXTILES",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Hindu Undivided Family",
+            "PlantLocation": "NA",
+            "Address": "DINESHKUMAR MAYACHAND SAHA HUF, 28, CHINTAMANI SOCIETY, HIGHWAY ROAD, ACHER, RAMNAGAR, SABARMATI",
+            "State": "GUJARAT",
+            "District": "AHMADABAD",
+            "PINCode": "380005",
+            "CommmenceDate": "01\/04\/2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 46411",
+            "TotalEmp": "2",
+            "InvestmentCost": "5.00",
+            "Dic_Name": "AHMEDABAD",
+            "RegistrationDate": "06\/10\/2016",
+            "LG_Dist_Code": "438"
+        },
+        {
+            "AID": "1573973",
+            "EnterpriseName": "RANDAL TRAVELS",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "SHOP No. 03, GROUND FLOOR,  AKSHARDEEP SHOPING CENTER, VED ROAD, SURAT",
+            "State": "GUJARAT",
+            "District": "SURAT",
+            "PINCode": "395004",
+            "CommmenceDate": "20\/08\/2008",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 79110",
+            "TotalEmp": "5",
+            "InvestmentCost": "20.00",
+            "Dic_Name": "SURAT",
+            "RegistrationDate": "06\/10\/2016",
+            "LG_Dist_Code": "459"
+        },
+        {
+            "AID": "1574039",
+            "EnterpriseName": "JAY AMBE CARTING",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "DASHAMAN FALIYA, BHADA, VALAK, TA-KAMREJ, DIS-SURAT",
+            "State": "GUJARAT",
+            "District": "SURAT",
+            "PINCode": "395008",
+            "CommmenceDate": "16\/05\/2014",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 46632",
+            "TotalEmp": "5",
+            "InvestmentCost": "10.00",
+            "Dic_Name": "SURAT",
+            "RegistrationDate": "06\/10\/2016",
+            "LG_Dist_Code": "459"
+        },
+        {
+            "AID": "1574055",
+            "EnterpriseName": "VINUBHAI GIRDHARBHAI MANGUKIYA",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "PLOT NO:-38, PATEL IND. SER SOCIETY, B\/H. PANDOL IND. SOCIETY, VED ROAD, SURAT.",
+            "State": "GUJARAT",
+            "District": "SURAT",
+            "PINCode": "395004",
+            "CommmenceDate": "18\/03\/2011",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 13991",
+            "TotalEmp": "6",
+            "InvestmentCost": "12.00",
+            "Dic_Name": "SURAT",
+            "RegistrationDate": "06\/10\/2016",
+            "LG_Dist_Code": "459"
+        },
+        {
+            "AID": "1574195",
+            "EnterpriseName": "MAHADEV ELECTRONIC",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "SHOP NO.1, BLOCK NO.2, ARJU COPMLEX, JOLVA, VAGRA",
+            "State": "GUJARAT",
+            "District": "BHARUCH",
+            "PINCode": "392001",
+            "CommmenceDate": "10\/06\/2011",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 46529",
+            "TotalEmp": "1",
+            "InvestmentCost": "5.00",
+            "Dic_Name": "BHARUCH",
+            "RegistrationDate": "06\/10\/2016",
+            "LG_Dist_Code": "442"
+        },
+        {
+            "AID": "1574302",
+            "EnterpriseName": "Mulchandani Komalben Sureshkumar",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "80\/4, GIDC Estate, Modern Bakeries Road, Nr V Trans, Naroda GIDC, Ahmedabad. 382330",
+            "State": "GUJARAT",
+            "District": "AHMADABAD",
+            "PINCode": "382330",
+            "CommmenceDate": "15\/09\/2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 32909",
+            "TotalEmp": "20",
+            "InvestmentCost": "25.00",
+            "Dic_Name": "AHMEDABAD",
+            "RegistrationDate": "06\/10\/2016",
+            "LG_Dist_Code": "438"
+        },
+        {
+            "AID": "1574337",
+            "EnterpriseName": "KESHAR BHAVANI TRADERS",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "H-12 SAMATA SOCIETY , KESHAVNAGAR , NEAR  RTO CIRCLE, SUBHASHBRIDGE ,AHMEDABAD CITY",
+            "State": "GUJARAT",
+            "District": "AHMADABAD",
+            "PINCode": "380027",
+            "CommmenceDate": "03\/10\/2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 28299",
+            "TotalEmp": "1",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "AHMEDABAD",
+            "RegistrationDate": "06\/10\/2016",
+            "LG_Dist_Code": "438"
+        },
+        {
+            "AID": "1574438",
+            "EnterpriseName": "Zodiac global",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Partnership",
+            "PlantLocation": "NA",
+            "Address": "Block B-15 b colony, phase 1 opp hitesh enterprise, g.i.d.c. naroda Ahmedabad -382330",
+            "State": "GUJARAT",
+            "District": "AHMADABAD",
+            "PINCode": "382330",
+            "CommmenceDate": "29\/03\/2013",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 20297",
+            "TotalEmp": "2",
+            "InvestmentCost": "20.00",
+            "Dic_Name": "AHMEDABAD",
+            "RegistrationDate": "06\/10\/2016",
+            "LG_Dist_Code": "438"
+        }
+    ]
+}

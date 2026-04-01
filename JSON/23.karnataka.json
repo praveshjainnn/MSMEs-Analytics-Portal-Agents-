@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 397848,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "1012121",
+            "EnterpriseName": "S R INDUSTRIES",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "No.21, 1st Floor, Sy. No. 92\/1, Gerupalya, Kumbalgud, Bangalore",
+            "State": "KARNATAKA",
+            "District": "BENGALURU (RURAL)",
+            "PINCode": "560074",
+            "CommmenceDate": "17\/06\/2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 15201",
+            "TotalEmp": "9",
+            "InvestmentCost": "18.00",
+            "Dic_Name": "BANGALORE (RURAL)",
+            "RegistrationDate": "12\/07\/2016",
+            "LG_Dist_Code": "526"
+        },
+        {
+            "AID": "1012136",
+            "EnterpriseName": "N.R.I. Furniture",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "No.423, Mahadevpura Main Road, Shanthinagar, Mysuru.",
+            "State": "KARNATAKA",
+            "District": "MYSURU",
+            "PINCode": "570019",
+            "CommmenceDate": "08\/03\/2013",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 31001",
+            "TotalEmp": "5",
+            "InvestmentCost": "8.00",
+            "Dic_Name": "MYSORE",
+            "RegistrationDate": "12\/07\/2016",
+            "LG_Dist_Code": "545"
+        },
+        {
+            "AID": "1012154",
+            "EnterpriseName": "TULAJA BHAVANI ELECTRICAL SHOP",
+            "SocialCategory": "SC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "NO.19, C CROSS, 1ST MAIN ROAD, SRIGANDHANAGAR MAIN ROAD, HEGGANALLI, PEENYA LIND STAGE, BENGALURU",
+            "State": "KARNATAKA",
+            "District": "BENGALURU (URBAN)",
+            "PINCode": "560091",
+            "CommmenceDate": "01\/06\/2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 47594",
+            "TotalEmp": "15",
+            "InvestmentCost": "25.00",
+            "Dic_Name": "BANGALORE (URBAN)",
+            "RegistrationDate": "12\/07\/2016",
+            "LG_Dist_Code": "525"
+        },
+        {
+            "AID": "1012180",
+            "EnterpriseName": "SHEKAR CENTRING WORKS",
+            "SocialCategory": "SC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "NO.240, 2ND MAIN, 1ST CROSS, HESARAGHATTA MAIN ROAD, NAGASANDRA (P), BANGALORE",
+            "State": "KARNATAKA",
+            "District": "BENGALURU (URBAN)",
+            "PINCode": "560073",
+            "CommmenceDate": "01\/06\/2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 43299",
+            "TotalEmp": "10",
+            "InvestmentCost": "25.00",
+            "Dic_Name": "BANGALORE (URBAN)",
+            "RegistrationDate": "12\/07\/2016",
+            "LG_Dist_Code": "525"
+        },
+        {
+            "AID": "1012199",
+            "EnterpriseName": "Attar Tailoring shop",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "W\/o: Dastagir Attar Galli Raybag Belagavi",
+            "State": "KARNATAKA",
+            "District": "BELAGAVI",
+            "PINCode": "591317",
+            "CommmenceDate": "24\/07\/2000",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 13122",
+            "TotalEmp": "1",
+            "InvestmentCost": "1.00",
+            "Dic_Name": "BELGAUM",
+            "RegistrationDate": "12\/07\/2016",
+            "LG_Dist_Code": "527"
+        },
+        {
+            "AID": "1012222",
+            "EnterpriseName": "S. S. PLASTIC",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "ISHWAR NAGAR BY PAS BRIDGE, NEAR TOLGATE SERVICE ROAD, OLD HUBLI, HUBLI",
+            "State": "KARNATAKA",
+            "District": "DHARWAD",
+            "PINCode": "580024",
+            "CommmenceDate": "20\/05\/2013",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 46693",
+            "TotalEmp": "2",
+            "InvestmentCost": "4.00",
+            "Dic_Name": "DHARWAD",
+            "RegistrationDate": "12\/07\/2016",
+            "LG_Dist_Code": "536"
+        },
+        {
+            "AID": "1012530",
+            "EnterpriseName": "REAL PRO ENGINEERING PRODUCTS PVT LTD",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Private Limited Company",
+            "PlantLocation": "NA",
+            "Address": "No. A 360, 1ST MAIN ROAD, 1ST STAGE PEENYA INDUSTRIAL AREA BANGALORE -560 058",
+            "State": "KARNATAKA",
+            "District": "BENGALURU (RURAL)",
+            "PINCode": "560058",
+            "CommmenceDate": "29\/07\/2010",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 28223; 2) 28229; 3) 28299",
+            "TotalEmp": "8",
+            "InvestmentCost": "15.00",
+            "Dic_Name": "BANGALORE (RURAL)",
+            "RegistrationDate": "12\/07\/2016",
+            "LG_Dist_Code": "526"
+        },
+        {
+            "AID": "1012715",
+            "EnterpriseName": "CENTRE FOR HUMAN HABITAT",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "No 26\/1 3RD MAIN HOSAPALYA BOMMANAHALLI POST BANGALORE",
+            "State": "KARNATAKA",
+            "District": "BENGALURU (URBAN)",
+            "PINCode": "560068",
+            "CommmenceDate": "02\/05\/2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 71100",
+            "TotalEmp": "3",
+            "InvestmentCost": "5.00",
+            "Dic_Name": "BANGALORE (URBAN)",
+            "RegistrationDate": "13\/07\/2016",
+            "LG_Dist_Code": "525"
+        },
+        {
+            "AID": "1012835",
+            "EnterpriseName": "M\/s P. R ENTERPRISES",
+            "SocialCategory": "General",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "No.411, K.NARAYANAPURA MAIN ROAD, NEAR KRISTU JAYANTHI COLLEGE, K.NARAYANAPURA , BANGALORE",
+            "State": "KARNATAKA",
+            "District": "BENGALURU (URBAN)",
+            "PINCode": "560077",
+            "CommmenceDate": "01\/07\/2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 45200; 2) 45300; 3) 45401; 4) 45402; 5) 45403; 6) 68100; 7) 68200; 8) 77100",
+            "TotalEmp": "5",
+            "InvestmentCost": "7.00",
+            "Dic_Name": "BANGALORE (URBAN)",
+            "RegistrationDate": "13\/07\/2016",
+            "LG_Dist_Code": "525"
+        },
+        {
+            "AID": "1012929",
+            "EnterpriseName": "KOHINOOR WOODS",
+            "SocialCategory": "OBC",
+            "Gender": "NA",
+            "PH": "NA",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": "NA",
+            "Address": "NO 933 OPP FOREST RANGE OFFICE KOLAR MAIN ROAD KARAHALLI, BANGARPET",
+            "State": "KARNATAKA",
+            "District": "KOLAR",
+            "PINCode": "563114",
+            "CommmenceDate": "12\/07\/2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 31001; 2) 31009",
+            "TotalEmp": "10",
+            "InvestmentCost": "25.00",
+            "Dic_Name": "KOLLAR",
+            "RegistrationDate": "13\/07\/2016",
+            "LG_Dist_Code": "542"
+        }
+    ]
+}

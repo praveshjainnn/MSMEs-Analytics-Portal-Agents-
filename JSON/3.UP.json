@@ -1,0 +1,357 @@
+{
+  "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+  "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+  "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+  "type": "catalog",
+  "org_type": "Central",
+  "org": [
+    "Ministry of Micro, Small and Medium Enterprises"
+  ],
+  "sector": [
+    "Small Scale",
+    "Micro",
+    "Medium"
+  ],
+  "visualizable": "1",
+  "active": "1",
+  "source": "data.gov.in",
+  "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+  "created": 1574145124,
+  "updated": 1580277793,
+  "updated_date": "2020-01-29T11:33:13Z",
+  "target_bucket": {
+    "index": "msme_daily_reg",
+    "type": "msme_daily_reg"
+  },
+  "field": [
+    {
+      "id": "AID",
+      "name": "AID",
+      "type": "integer"
+    },
+    {
+      "id": "EnterpriseName",
+      "name": "EnterpriseName",
+      "type": "keyword"
+    },
+    {
+      "id": "SocialCategory",
+      "name": "SocialCategory",
+      "type": "keyword"
+    },
+    {
+      "id": "Gender",
+      "name": "Gender",
+      "type": "keyword"
+    },
+    {
+      "id": "PH",
+      "name": "PH",
+      "type": "keyword"
+    },
+    {
+      "id": "OrganisationType",
+      "name": "OrganisationType",
+      "type": "keyword"
+    },
+    {
+      "id": "PlantLocation",
+      "name": "PlantLocation",
+      "type": "text"
+    },
+    {
+      "id": "Address",
+      "name": "Address",
+      "type": "text"
+    },
+    {
+      "id": "State",
+      "name": "State",
+      "type": "keyword"
+    },
+    {
+      "id": "District",
+      "name": "District",
+      "type": "keyword"
+    },
+    {
+      "id": "PINCode",
+      "name": "PINCode",
+      "type": "integer"
+    },
+    {
+      "id": "CommmenceDate",
+      "name": "CommmenceDate",
+      "type": "date"
+    },
+    {
+      "id": "MajorActivity",
+      "name": "MajorActivity",
+      "type": "keyword"
+    },
+    {
+      "id": "EnterpriseType",
+      "name": "EnterpriseType",
+      "type": "keyword"
+    },
+    {
+      "id": "NIC5DigitCode",
+      "name": "NIC5DigitCode",
+      "type": "text"
+    },
+    {
+      "id": "TotalEmp",
+      "name": "TotalEmp",
+      "type": "integer"
+    },
+    {
+      "id": "InvestmentCost",
+      "name": "InvestmentCost",
+      "type": "integer"
+    },
+    {
+      "id": "Dic_Name",
+      "name": "Dic_Name",
+      "type": "keyword"
+    },
+    {
+      "id": "RegistrationDate",
+      "name": "RegistrationDate",
+      "type": "date"
+    },
+    {
+      "id": "LG_Dist_Code",
+      "name": "LG_Dist_Code",
+      "type": "keyword"
+    }
+  ],
+  "message": "Resource lists",
+  "version": "2.2.0",
+  "status": "ok",
+  "total": 955472,
+  "count": 10,
+  "limit": "10",
+  "offset": "0",
+  "records": [
+    {
+      "AID": "190",
+      "EnterpriseName": "SHREE INSTITUTION OF COMPUTER EDUCATION SOCIETY",
+      "SocialCategory": "OBC",
+      "Gender": "NA",
+      "PH": "NA",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": "NA",
+      "Address": "VILL DHARMANPUR POST JAMALPUR DIST VARANASI  221105",
+      "State": "UTTAR PRADESH",
+      "District": "VARANASI",
+      "PINCode": "NA",
+      "CommmenceDate": "19/02/2015",
+      "MajorActivity": "Services",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 85221",
+      "TotalEmp": "5",
+      "InvestmentCost": "2.00",
+      "Dic_Name": "VARANASHI",
+      "RegistrationDate": "19/10/2015",
+      "LG_Dist_Code": "187"
+    },
+    {
+      "AID": "222",
+      "EnterpriseName": "Reliable Green ventures pvt ltd(opc)",
+      "SocialCategory": "General",
+      "Gender": "NA",
+      "PH": "NA",
+      "OrganisationType": "Private Limited Company",
+      "PlantLocation": "NA",
+      "Address": "Plot no 218, Vill Taraon, Post Danganj, Dist Varanasi 221101",
+      "State": "UTTAR PRADESH",
+      "District": "VARANASI",
+      "PINCode": "NA",
+      "CommmenceDate": "06/08/2015",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 30999",
+      "TotalEmp": "14",
+      "InvestmentCost": "18.00",
+      "Dic_Name": "VARANASHI",
+      "RegistrationDate": "19/10/2015",
+      "LG_Dist_Code": "187"
+    },
+    {
+      "AID": "356",
+      "EnterpriseName": "Ridhdhi sidhdhi boutique",
+      "SocialCategory": "General",
+      "Gender": "NA",
+      "PH": "NA",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": "NA",
+      "Address": "Plot number 30, House number B-37/54-B,Giri Nagar Colony,Birdopur,Varanasi-221010",
+      "State": "UTTAR PRADESH",
+      "District": "VARANASI",
+      "PINCode": "NA",
+      "CommmenceDate": "10/05/2007",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 14105",
+      "TotalEmp": "6",
+      "InvestmentCost": "1.00",
+      "Dic_Name": "VARANASHI",
+      "RegistrationDate": "19/10/2015",
+      "LG_Dist_Code": "187"
+    },
+    {
+      "AID": "365",
+      "EnterpriseName": "saurabh cold water",
+      "SocialCategory": "General",
+      "Gender": "NA",
+      "PH": "NA",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": "NA",
+      "Address": "Village karajahi Post gauri bazarDist Deoria",
+      "State": "UTTAR PRADESH",
+      "District": "DEORIA",
+      "PINCode": "NA",
+      "CommmenceDate": "15/04/2013",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 36000",
+      "TotalEmp": "2",
+      "InvestmentCost": "10.00",
+      "Dic_Name": "NULL",
+      "RegistrationDate": "01/10/2015",
+      "LG_Dist_Code": "137"
+    },
+    {
+      "AID": "369",
+      "EnterpriseName": "TARA &amp; COMPANY",
+      "SocialCategory": "SC",
+      "Gender": "NA",
+      "PH": "NA",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": "NA",
+      "Address": "VILL BABERI , POST -SOHILAPUR",
+      "State": "UTTAR PRADESH",
+      "District": "GHAZIPUR",
+      "PINCode": "NA",
+      "CommmenceDate": "14/08/2015",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 43299",
+      "TotalEmp": "10",
+      "InvestmentCost": "25.00",
+      "Dic_Name": "NULL",
+      "RegistrationDate": "01/10/2015",
+      "LG_Dist_Code": "146"
+    },
+    {
+      "AID": "372",
+      "EnterpriseName": "kaya care medical store",
+      "SocialCategory": "General",
+      "Gender": "NA",
+      "PH": "NA",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": "NA",
+      "Address": "hospital road ward no 5 salempur deoria up",
+      "State": "UTTAR PRADESH",
+      "District": "DEORIA",
+      "PINCode": "NA",
+      "CommmenceDate": "02/12/1979",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 24201",
+      "TotalEmp": "20",
+      "InvestmentCost": "2.00",
+      "Dic_Name": "NULL",
+      "RegistrationDate": "01/10/2015",
+      "LG_Dist_Code": "137"
+    },
+    {
+      "AID": "383",
+      "EnterpriseName": "Sharp laboratories Gramodyog Sanstha",
+      "SocialCategory": "General",
+      "Gender": "Male",
+      "PH": "No",
+      "OrganisationType": "Society",
+      "PlantLocation": " 1) 125 KHADI GRAMODYOG EMPORIUM maheshpur varanasiVARANASIUTTAR PRADESH",
+      "Address": "Vill.-Maheshpur,post-industrial estate,varanasi",
+      "State": "UTTAR PRADESH",
+      "District": "VARANASI",
+      "PINCode": "221106",
+      "CommmenceDate": "29/11/2002",
+      "MajorActivity": "Manufacturing",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 32909",
+      "TotalEmp": "5",
+      "InvestmentCost": "1.00",
+      "Dic_Name": "VARANASHI",
+      "RegistrationDate": "19/10/2015",
+      "LG_Dist_Code": "187"
+    },
+    {
+      "AID": "387",
+      "EnterpriseName": "SHARMA  ENTERPRISE",
+      "SocialCategory": "General",
+      "Gender": "NA",
+      "PH": "NA",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": "NA",
+      "Address": "RAJ KAMAL PARK, NEAR EKTA NAGAR ROORKEE ROAD",
+      "State": "UTTAR PRADESH",
+      "District": "MEERUT",
+      "PINCode": "NA",
+      "CommmenceDate": "01/01/2014",
+      "MajorActivity": "Services",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 85500",
+      "TotalEmp": "1",
+      "InvestmentCost": "1.00",
+      "Dic_Name": "NULL",
+      "RegistrationDate": "02/10/2015",
+      "LG_Dist_Code": "169"
+    },
+    {
+      "AID": "397",
+      "EnterpriseName": "AddCarts Group",
+      "SocialCategory": "OBC",
+      "Gender": "NA",
+      "PH": "NA",
+      "OrganisationType": "Others",
+      "PlantLocation": "NA",
+      "Address": "102 A Aruna Nagar, Etah",
+      "State": "UTTAR PRADESH",
+      "District": "ETAH",
+      "PINCode": "NA",
+      "CommmenceDate": "02/10/2015",
+      "MajorActivity": "Services",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 74909",
+      "TotalEmp": "1",
+      "InvestmentCost": "1.00",
+      "Dic_Name": "NULL",
+      "RegistrationDate": "02/10/2015",
+      "LG_Dist_Code": "138"
+    },
+    {
+      "AID": "400",
+      "EnterpriseName": "S.P.S. Enterprises",
+      "SocialCategory": "OBC",
+      "Gender": "NA",
+      "PH": "NA",
+      "OrganisationType": "Proprietary",
+      "PlantLocation": "NA",
+      "Address": "102 A Aruna Nagar, Etah",
+      "State": "UTTAR PRADESH",
+      "District": "ETAH",
+      "PINCode": "NA",
+      "CommmenceDate": "02/10/2015",
+      "MajorActivity": "Services",
+      "EnterpriseType": "Micro",
+      "NIC5DigitCode": " 1) 74909",
+      "TotalEmp": "1",
+      "InvestmentCost": "1.00",
+      "Dic_Name": "NULL",
+      "RegistrationDate": "02/10/2015",
+      "LG_Dist_Code": "138"
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 201610,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "8048921",
+            "EnterpriseName": "SIMRAN TECHNOLOGIES",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 73 NEW MANGLAPURI DELHI DELHISOUTH WESTDELHI",
+            "Address": "73 NEW MAGLAPURI NEAR ANDHERIA MORE ",
+            "State": "DELHI",
+            "District": "SOUTH WEST",
+            "PINCode": "110030",
+            "CommmenceDate": "22-08-2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 96010; 2) 33200",
+            "TotalEmp": "15",
+            "InvestmentCost": "25",
+            "Dic_Name": "DELHI",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "84"
+        },
+        {
+            "AID": "8049229",
+            "EnterpriseName": "CREATIVE DESIGN INDIA",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 487\/62, NATIONAL MARKET, PASCHIM VIHAR DELHIWESTDELHI",
+            "Address": "487\/62,, NATIONAL MARKET, SHEEESE WALI GALI, , PEERAGARHI, PASCHIM VIHAR, DELHI",
+            "State": "DELHI",
+            "District": "WEST",
+            "PINCode": "110087",
+            "CommmenceDate": "19-11-2004",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 74109",
+            "TotalEmp": "9",
+            "InvestmentCost": "2",
+            "Dic_Name": "DELHI",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "85"
+        },
+        {
+            "AID": "8046789",
+            "EnterpriseName": "KHUSHI NON WOVENS BAGS",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) WZ 407 B\/1 BESAI DARAPUR DELHI NEW DELHIWESTDELHI",
+            "Address": "WZ 407 B\/1 BASAI DARAPUR, NEW DELHI 110015",
+            "State": "DELHI",
+            "District": "WEST",
+            "PINCode": "110015",
+            "CommmenceDate": "10-11-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 96098",
+            "TotalEmp": "1",
+            "InvestmentCost": "2",
+            "Dic_Name": "DELHI",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "85"
+        },
+        {
+            "AID": "8046821",
+            "EnterpriseName": "SHIVYA SERVICES",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) SHOP NO-2 GROUND FLOOR, PLOT NO 700 MUNDKA DELHIWESTDELHI",
+            "Address": "SHOP NO-2, GROUND FLOOR, PLOT NO 700, SAINI VIHAR, MUNDKA DELHI - 110041",
+            "State": "DELHI",
+            "District": "WEST",
+            "PINCode": "110041",
+            "CommmenceDate": "07-03-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 78300",
+            "TotalEmp": "10",
+            "InvestmentCost": "3",
+            "Dic_Name": "DELHI",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "85"
+        },
+        {
+            "AID": "8045419",
+            "EnterpriseName": "SUPREME FINISHING",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) RZ-108 C GROUNDFLOOR Mahindra Park uttam nagar New DelhiWESTDELHI",
+            "Address": "wz 91 B near metro pillar no. 430",
+            "State": "DELHI",
+            "District": "WEST",
+            "PINCode": "110027",
+            "CommmenceDate": "19-06-1995",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 13131",
+            "TotalEmp": "9",
+            "InvestmentCost": "1",
+            "Dic_Name": "DELHI",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "85"
+        },
+        {
+            "AID": "8045486",
+            "EnterpriseName": "SEA GATE FACILITY MANAGEMENT PRIVATE LIMITED",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Private Limited Company",
+            "PlantLocation": " 1) 3rd Flr,Office No D3 Major Nahar Singh Complex, Khasra No-50, Old Gurga Kapashera,South West Delhi NEW DELHISOUTH WESTDELHI",
+            "Address": "3rd Floor, Office No-D-3, Major Nahar Singh Complex, Khasra No-50, Old Gurgaon Road, Opposite Fun and Food Village, Kapashera,South West Delhi, NEW DELHI",
+            "State": "DELHI",
+            "District": "SOUTH WEST",
+            "PINCode": "110037",
+            "CommmenceDate": "03-11-2014",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 80200; 2) 96098; 3) 78100",
+            "TotalEmp": "150",
+            "InvestmentCost": "1",
+            "Dic_Name": "DELHI",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "84"
+        },
+        {
+            "AID": "8045644",
+            "EnterpriseName": "Re-Live Yoga",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Partnership",
+            "PlantLocation": " 1) A-119 yojna vihar yojna vihar New delhiEASTDELHI",
+            "Address": "A-119, yojna vihar, yojna vihar, yojna vihar, New delhi",
+            "State": "DELHI",
+            "District": "EAST",
+            "PINCode": "110092",
+            "CommmenceDate": "05-05-2015",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 79120; 2) 79110",
+            "TotalEmp": "1",
+            "InvestmentCost": "1",
+            "Dic_Name": "DELHI",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "78"
+        },
+        {
+            "AID": "8045647",
+            "EnterpriseName": "AROWANA DIGITAL SERVICES LLP",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Limited Liability Partnership",
+            "PlantLocation": " 1) A 120\/2 F\/F FLAT NO SHAHEEN,BAGH,ABULFAZAL PART 2 NEW DELHI DelhiSOUTH DELHI",
+            "Address": "A 120\/2 F\/F FLAT NO 102 SHAHEEN,BAGH,ABULFAZAL PART 2,OKHLA NEAR JAMIA N AGAR",
+            "State": "DELHI",
+            "District": "SOUTH ",
+            "PINCode": "110025",
+            "CommmenceDate": "19-08-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 62012; 2) 62099",
+            "TotalEmp": "1",
+            "InvestmentCost": "1",
+            "Dic_Name": "DELHI",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "83"
+        },
+        {
+            "AID": "8046062",
+            "EnterpriseName": " ASHOKA ELECTRIC WORKS PRIVATE LIMITED",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Private Limited Company",
+            "PlantLocation": " 1) 109 CCA FIRST FLOOR EMPIRE PLAZA MEHRAULI SULTAN PUR NEW DELHINEW DELHIDELHI",
+            "Address": "109 CCA FIRST FLOOR EMPIRE PLAZA MEHRAULI GURGAON ROAD SULTAN PUR NEW DELHI-110030",
+            "State": "DELHI",
+            "District": "NEW DELHI",
+            "PINCode": "110030",
+            "CommmenceDate": "23-01-2012",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 82990",
+            "TotalEmp": "27",
+            "InvestmentCost": "25",
+            "Dic_Name": "DELHI",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "79"
+        },
+        {
+            "AID": "8047886",
+            "EnterpriseName": "HYDERABAD TRADE EXPOCENTRE PRIVATE LIMITED",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Private Limited Company",
+            "PlantLocation": " 1) HOTEL LAKEVIEW EXPOTEL HYDERABAD HYDERABADHYDERABADTELANGANA",
+            "Address": "I-83, LAJPAT NAGAR-II, NEW DELHI - 110024",
+            "State": "DELHI",
+            "District": "SOUTH ",
+            "PINCode": "110024",
+            "CommmenceDate": "23-12-2002",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Medium",
+            "NIC5DigitCode": " 1) 55101; 2) 55902; 3) 56101; 4) 56210; 5) 56292; 6) 56301; 7) 82300; 8) 82110",
+            "TotalEmp": "31",
+            "InvestmentCost": "250",
+            "Dic_Name": "DELHI",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "83"
+        }
+    ]
+}

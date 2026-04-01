@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 26360,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "8019053",
+            "EnterpriseName": "M\/S MONDAL ENTERPPRISE",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) NA VILL- BALABHITA BALABHITA BARPETABARPETAASSAM",
+            "Address": "VILL- BALABHITA, PO- BALABHITA, BARPETA",
+            "State": "ASSAM",
+            "District": "BARPETA",
+            "PINCode": "781313",
+            "CommmenceDate": "03-04-2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 23954; 2) 23952",
+            "TotalEmp": "7",
+            "InvestmentCost": "25",
+            "Dic_Name": "BARPETA",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "280"
+        },
+        {
+            "AID": "8015760",
+            "EnterpriseName": "M\/S STEEL & DESIGNER",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) NEAR ROTARY CLUB KAMALABARI DULIAJAN DULIAJANDIBRUGARHASSAM",
+            "Address": "NEAR ROTARY CLUB, KAMALABARI ROAD, DULIAJAN",
+            "State": "ASSAM",
+            "District": "DIBRUGARH",
+            "PINCode": "786602",
+            "CommmenceDate": "02-03-1990",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 25996; 2) 25999; 3) 25111; 4) 25119; 5) 25129",
+            "TotalEmp": "8",
+            "InvestmentCost": "48",
+            "Dic_Name": "DIBRUGARH",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "286"
+        },
+        {
+            "AID": "8017381",
+            "EnterpriseName": "M\/S AYAAN ENTERPRISE",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) N\/A Sarkari Bagan Haflong Area HaflongDIMA HASAOASSAM",
+            "Address": "Sarkari Bagan, Haflong",
+            "State": "ASSAM",
+            "District": "DIMA HASAO",
+            "PINCode": "788819",
+            "CommmenceDate": "12-07-2007",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 63999",
+            "TotalEmp": "4",
+            "InvestmentCost": "1",
+            "Dic_Name": "DIMA HASAO",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "299"
+        },
+        {
+            "AID": "8017391",
+            "EnterpriseName": "M\/S BABUBIL MUSHROOM PRODUCTION UNIT",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 189 Vill.Babubil,P.O.Gossaigaon,Dist.Kokrajhar Gossaigaon KokrajharKOKRAJHARASSAM",
+            "Address": "Vill. Babubil,P.O.Gossaigaon,Dist.Kokrajhar,Pin-783360",
+            "State": "ASSAM",
+            "District": "KOKRAJHAR",
+            "PINCode": "783360",
+            "CommmenceDate": "05-07-2018",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 10799",
+            "TotalEmp": "7",
+            "InvestmentCost": "62",
+            "Dic_Name": "KOKRAJHAR",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "294"
+        },
+        {
+            "AID": "8017005",
+            "EnterpriseName": "M\/S RADHE RADHE MUSHROOM UNIT",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 172 Vill. Bashbari, P.O.Gossaigaon,Dist.Kokrajhar Gossaigaon KokrajharKOKRAJHARASSAM",
+            "Address": "Vill. Bashbari, P.O.Gossaigaon, Dist.Kokrajhar, Pin-783360",
+            "State": "ASSAM",
+            "District": "KOKRAJHAR",
+            "PINCode": "783360",
+            "CommmenceDate": "04-03-2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 10799",
+            "TotalEmp": "3",
+            "InvestmentCost": "56",
+            "Dic_Name": "KOKRAJHAR",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "294"
+        },
+        {
+            "AID": "8019517",
+            "EnterpriseName": "M S GROOMING STUDIO",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) HOUSE NO-6 OPPOSITE PENSIONER BHAWAN CHANDMARI COLONY GUWAHATIKAMRUP METROASSAM",
+            "Address": "NIZARA PARA ROAD, OPPOSITE PENSIONER BHAWAN, NEAR CHANDMARI POLICE STATION, CHANDMARI COLONY, GUWAHATI-781003, ASSAM, INDIA",
+            "State": "ASSAM",
+            "District": "KAMRUP METRO",
+            "PINCode": "781003",
+            "CommmenceDate": "01-08-2016",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 90009",
+            "TotalEmp": "6",
+            "InvestmentCost": "2",
+            "Dic_Name": "GM DIC KAMRUP",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "618"
+        },
+        {
+            "AID": "8019737",
+            "EnterpriseName": "IIIANA STUDIO PRIVATE LIMITED",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Private Limited Company",
+            "PlantLocation": " 1) 0 C\/o Niran Ch. Pegu WML J Lane DibrugarhDIBRUGARHASSAM",
+            "Address": "C\/o Niran Ch. Pegu,  Kangkan Nagar, WML J Lane, Dibrugarh",
+            "State": "ASSAM",
+            "District": "DIBRUGARH",
+            "PINCode": "786003",
+            "CommmenceDate": "16-08-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 62099; 2) 62011; 3) 62012; 4) 62013; 5) 62020",
+            "TotalEmp": "1",
+            "InvestmentCost": "2",
+            "Dic_Name": "DIBRUGARH",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "286"
+        },
+        {
+            "AID": "8020887",
+            "EnterpriseName": "MANIK DEY & CO",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Partnership",
+            "PlantLocation": " 1) NO 1 BORBIL BORBIL DIGBOITINSUKIAASSAM",
+            "Address": "BORBIL NO 1,DIGBOI",
+            "State": "ASSAM",
+            "District": "TINSUKIA",
+            "PINCode": "786171",
+            "CommmenceDate": "01-04-2005",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 41002; 2) 41001; 3) 78100",
+            "TotalEmp": "10",
+            "InvestmentCost": "9",
+            "Dic_Name": "TINSUKIA",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "302"
+        },
+        {
+            "AID": "8021856",
+            "EnterpriseName": "S R AND SONS",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) # BORBIL NO 1 BORBIL DIGBOITINSUKIAASSAM",
+            "Address": "BORBIL NO 1,DIGBOI",
+            "State": "ASSAM",
+            "District": "TINSUKIA",
+            "PINCode": "786171",
+            "CommmenceDate": "01-01-2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 41002; 2) 41001",
+            "TotalEmp": "5",
+            "InvestmentCost": "5",
+            "Dic_Name": "TINSUKIA",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "302"
+        },
+        {
+            "AID": "8021080",
+            "EnterpriseName": "PRATUL THAKURIA",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 00 KACHU GAON PULIBOR GOLAGHATGOLAGHATASSAM",
+            "Address": "KACHU GAON, PO-PULIBOR, PS-GOLAGHAT, SUB. DIV. - GOLAGHAT",
+            "State": "ASSAM",
+            "District": "GOLAGHAT",
+            "PINCode": "785621",
+            "CommmenceDate": "01-11-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 33111; 2) 41001; 3) 42101; 4) 42909; 5) 43110; 6) 78100; 7) 78200; 8) 82110",
+            "TotalEmp": "20",
+            "InvestmentCost": "4",
+            "Dic_Name": "GOLAGHAT",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "288"
+        }
+    ]
+}

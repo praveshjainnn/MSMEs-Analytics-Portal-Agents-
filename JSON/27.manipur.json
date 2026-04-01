@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 36028,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "8018693",
+            "EnterpriseName": "M\/S PINK ENTERPRISE",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 00 THANGMEIBAND B.G. SHOPPING CENTER, OPP. D.M. COLLEGE GATE IMPHALIMPHAL WESTMANIPUR",
+            "Address": "THANGMEIBAND",
+            "State": "MANIPUR",
+            "District": "IMPHAL WEST",
+            "PINCode": "795001",
+            "CommmenceDate": "09-02-2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 14101",
+            "TotalEmp": "10",
+            "InvestmentCost": "5",
+            "Dic_Name": "IMPHAL WEST",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "256"
+        },
+        {
+            "AID": "8017006",
+            "EnterpriseName": "Shubon Enterprise",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) Chanam Sandrok Leikai ImphalIMPHAL EASTMANIPUR",
+            "Address": "Chanam Sandrok Bamon Leikai",
+            "State": "MANIPUR",
+            "District": "IMPHAL EAST",
+            "PINCode": "795008",
+            "CommmenceDate": "02-02-2017",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 10614; 2) 20237",
+            "TotalEmp": "2",
+            "InvestmentCost": "3",
+            "Dic_Name": "IIMPHAL EAST",
+            "RegistrationDate": "15-11-2019",
+            "LG_Dist_Code": "255"
+        },
+        {
+            "AID": "8028075",
+            "EnterpriseName": "M\/S. REENA WHOLESALE & SUPPLIER",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) BRAHMAPUR CHUNGKHAM LEIKAI BRAHMAPUR IMPHALIMPHAL EASTMANIPUR",
+            "Address": "BRAHMAPUR CHUNGKHAM LEIKAI",
+            "State": "MANIPUR",
+            "District": "IMPHAL EAST",
+            "PINCode": "795001",
+            "CommmenceDate": "10-10-2016",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 14105; 2) 32909",
+            "TotalEmp": "25",
+            "InvestmentCost": "8",
+            "Dic_Name": "IIMPHAL EAST",
+            "RegistrationDate": "16-11-2019",
+            "LG_Dist_Code": "255"
+        },
+        {
+            "AID": "8028328",
+            "EnterpriseName": "M\/S. Mahendi Tailoring",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) N\/A Tarahei Konjil Heiyanthang ImphalIMPHAL WESTMANIPUR",
+            "Address": "Tarahei Konjil, Heiyanthang",
+            "State": "MANIPUR",
+            "District": "IMPHAL WEST",
+            "PINCode": "795009",
+            "CommmenceDate": "01-02-2017",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 14101",
+            "TotalEmp": "5",
+            "InvestmentCost": "2",
+            "Dic_Name": "IMPHAL WEST",
+            "RegistrationDate": "16-11-2019",
+            "LG_Dist_Code": "256"
+        },
+        {
+            "AID": "8048348",
+            "EnterpriseName": "M\/s. RR AGENCY",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 146 SINGJAMEI WANGMA KSHETRI LEIKAI, PUKHRAMBAM LEIRAK SINGJAMEI WANGMA KSHETRI LEIKAI, PUKHRAMBAM LEIRAK IMPHALIMPHAL EASTMANIPUR",
+            "Address": "SINGJAMEI WANGMA KSHETRI LEIKAI, PUKHRAMBAM LEIRAK",
+            "State": "MANIPUR",
+            "District": "IMPHAL EAST",
+            "PINCode": "795001",
+            "CommmenceDate": "14-03-2012",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 82990; 2) 71100; 3) 22204; 4) 95111; 5) 20299",
+            "TotalEmp": "10",
+            "InvestmentCost": "20",
+            "Dic_Name": "IIMPHAL EAST",
+            "RegistrationDate": "19-11-2019",
+            "LG_Dist_Code": "255"
+        },
+        {
+            "AID": "8086558",
+            "EnterpriseName": "M\/S Angolei Saw Mill",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) Nill Wangoo Sandangkhong Leikai Wangoo Sandangkhong Leikai KakchingTHOUBALMANIPUR",
+            "Address": "Wangoo Sandangkhong Leikai\t",
+            "State": "MANIPUR",
+            "District": "THOUBAL",
+            "PINCode": "795103",
+            "CommmenceDate": "15-09-2018",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 16109",
+            "TotalEmp": "5",
+            "InvestmentCost": "10",
+            "Dic_Name": "THOUBAL",
+            "RegistrationDate": "23-11-2019",
+            "LG_Dist_Code": "259"
+        },
+        {
+            "AID": "8090963",
+            "EnterpriseName": "Dina kamei",
+            "SocialCategory": "ST",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) Noney Longmai Longmai Bazar ImphalNONEYMANIPUR",
+            "Address": "Longmai",
+            "State": "MANIPUR",
+            "District": "TAMENGLONG",
+            "PINCode": "795159",
+            "CommmenceDate": "02-07-2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 33121",
+            "TotalEmp": "2",
+            "InvestmentCost": "1",
+            "Dic_Name": "TAMENGLONG",
+            "RegistrationDate": "24-11-2019",
+            "LG_Dist_Code": "258"
+        },
+        {
+            "AID": "8088823",
+            "EnterpriseName": "M\/S DOREN FREEWAY",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 00 KWAKEITHEL BAZAR, NEAR TRAFFIC POINT KWAKEITHEL BAZAR, NEAR TRAFFIC POINT IMPHAL WESTIMPHAL WESTMANIPUR",
+            "Address": "KWAKEITHEL BAZAR, NEAR TRAFFIC POINT\t",
+            "State": "MANIPUR",
+            "District": "IMPHAL WEST",
+            "PINCode": "795001",
+            "CommmenceDate": "02-02-2015",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 14101; 2) 96092; 3) 74101; 4) 13139; 5) 31002",
+            "TotalEmp": "20",
+            "InvestmentCost": "10",
+            "Dic_Name": "IMPHAL WEST",
+            "RegistrationDate": "23-11-2019",
+            "LG_Dist_Code": "256"
+        },
+        {
+            "AID": "8090646",
+            "EnterpriseName": "Friends enterprises",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) Singjamei Top Leikai Singjamei Singjamei Bazar ImphalIMPHAL WESTMANIPUR",
+            "Address": "Singjamei Top Leikai",
+            "State": "MANIPUR",
+            "District": "IMPHAL WEST",
+            "PINCode": "795008",
+            "CommmenceDate": "06-08-2018",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 14301",
+            "TotalEmp": "25",
+            "InvestmentCost": "15",
+            "Dic_Name": "IMPHAL WEST",
+            "RegistrationDate": "24-11-2019",
+            "LG_Dist_Code": "256"
+        },
+        {
+            "AID": "7964337",
+            "EnterpriseName": "M\/S NEINU GENERAL STORE",
+            "SocialCategory": "ST",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) KANGPOKPI KANGPOKPI WARD NO. 8 KANGPOKPI IMPHALSENAPATIMANIPUR",
+            "Address": "KANGPOKPI WARD NO. 8",
+            "State": "MANIPUR",
+            "District": "SENAPATI",
+            "PINCode": "795129",
+            "CommmenceDate": "01-07-2001",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 96098",
+            "TotalEmp": "3",
+            "InvestmentCost": "5",
+            "Dic_Name": "SENAPATI",
+            "RegistrationDate": "08-11-2019",
+            "LG_Dist_Code": "257"
+        }
+    ]
+}

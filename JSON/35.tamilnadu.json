@@ -1,0 +1,357 @@
+{
+    "index_name": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "title": "List of MSME Registered Units under Udyog Aadhaar Memrandum",
+    "desc": "The catalog contains Unit name, unit address, enterprise type, Investment in plant and machinery, employment, national industrial classification code, type of organisation, location of units, gender, social category etc. ",
+    "type": "catalog",
+    "org_type": "Central",
+    "org": [
+        "Ministry of Micro, Small and Medium Enterprises"
+    ],
+    "sector": [
+        "Small Scale",
+        "Micro",
+        "Medium"
+    ],
+    "visualizable": "1",
+    "active": "1",
+    "source": "data.gov.in",
+    "catalog_uuid": "2c895ab9-8042-4653-bfeb-7dc71281fd57",
+    "created": 1574145124,
+    "updated": 1580277793,
+    "updated_date": "2020-01-29T11:33:13Z",
+    "target_bucket": {
+        "index": "msme_daily_reg",
+        "type": "msme_daily_reg"
+    },
+    "field": [
+        {
+            "id": "AID",
+            "name": "AID",
+            "type": "integer"
+        },
+        {
+            "id": "EnterpriseName",
+            "name": "EnterpriseName",
+            "type": "keyword"
+        },
+        {
+            "id": "SocialCategory",
+            "name": "SocialCategory",
+            "type": "keyword"
+        },
+        {
+            "id": "Gender",
+            "name": "Gender",
+            "type": "keyword"
+        },
+        {
+            "id": "PH",
+            "name": "PH",
+            "type": "keyword"
+        },
+        {
+            "id": "OrganisationType",
+            "name": "OrganisationType",
+            "type": "keyword"
+        },
+        {
+            "id": "PlantLocation",
+            "name": "PlantLocation",
+            "type": "text"
+        },
+        {
+            "id": "Address",
+            "name": "Address",
+            "type": "text"
+        },
+        {
+            "id": "State",
+            "name": "State",
+            "type": "keyword"
+        },
+        {
+            "id": "District",
+            "name": "District",
+            "type": "keyword"
+        },
+        {
+            "id": "PINCode",
+            "name": "PINCode",
+            "type": "integer"
+        },
+        {
+            "id": "CommmenceDate",
+            "name": "CommmenceDate",
+            "type": "date"
+        },
+        {
+            "id": "MajorActivity",
+            "name": "MajorActivity",
+            "type": "keyword"
+        },
+        {
+            "id": "EnterpriseType",
+            "name": "EnterpriseType",
+            "type": "keyword"
+        },
+        {
+            "id": "NIC5DigitCode",
+            "name": "NIC5DigitCode",
+            "type": "text"
+        },
+        {
+            "id": "TotalEmp",
+            "name": "TotalEmp",
+            "type": "integer"
+        },
+        {
+            "id": "InvestmentCost",
+            "name": "InvestmentCost",
+            "type": "integer"
+        },
+        {
+            "id": "Dic_Name",
+            "name": "Dic_Name",
+            "type": "keyword"
+        },
+        {
+            "id": "RegistrationDate",
+            "name": "RegistrationDate",
+            "type": "date"
+        },
+        {
+            "id": "LG_Dist_Code",
+            "name": "LG_Dist_Code",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 1089882,
+    "count": 10,
+    "limit": "10",
+    "offset": "0",
+    "records": [
+        {
+            "AID": "6852422",
+            "EnterpriseName": "PKS FACILITY MANAGEMENT SERVICES",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) NO:65, NALLOUR, VAIYANOUR POST, VAIYAVUR, KANCHIPURAMKANCHIPURAMTAMIL NADU",
+            "Address": "SAME AS ABOVE",
+            "State": "TAMIL NADU",
+            "District": "KANCHIPURAM",
+            "PINCode": "631561",
+            "CommmenceDate": "24\/05\/2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 80100; 2) 81100; 3) 81299",
+            "TotalEmp": "10",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "KANCHIPURAM",
+            "RegistrationDate": "27\/05\/2019",
+            "LG_Dist_Code": "574"
+        },
+        {
+            "AID": "6852430",
+            "EnterpriseName": "CHENNAI HOME NURSING CARE",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) NO. 1 GKM COLONY KOLATHUR CHENNAICHENNAITAMIL NADU",
+            "Address": "NO. 1, GKM COLONY, 13TH STREET, KOLATHUR\t",
+            "State": "TAMIL NADU",
+            "District": "CHENNAI",
+            "PINCode": "600082",
+            "CommmenceDate": "01\/05\/2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 87100; 2) 87200; 3) 87300; 4) 87900",
+            "TotalEmp": "9",
+            "InvestmentCost": "5.00",
+            "Dic_Name": "CHENNAI",
+            "RegistrationDate": "27\/05\/2019",
+            "LG_Dist_Code": "568"
+        },
+        {
+            "AID": "6852460",
+            "EnterpriseName": "ARUNSUBU TRADING",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 99\/A SIDCO KAPPALUR MADURAIMADURAITAMIL NADU",
+            "Address": "99\/A , SIDCO INDUSTRIAL ESTATE , KAPPLAUR ",
+            "State": "TAMIL NADU",
+            "District": "MADURAI",
+            "PINCode": "625008",
+            "CommmenceDate": "19\/10\/2012",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 73200",
+            "TotalEmp": "5",
+            "InvestmentCost": "13.00",
+            "Dic_Name": "MADURAI",
+            "RegistrationDate": "27\/05\/2019",
+            "LG_Dist_Code": "578"
+        },
+        {
+            "AID": "6852464",
+            "EnterpriseName": "MANLEE TAILOR",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 61 A LAKSHMANGUDI MAIN ROAD THIRUVARUR THIRUVARURTHIRUVARURTAMIL NADU",
+            "Address": "61 A, LAKSHMANGUDI, MAIN ROAD, KOOTHANALLUR, THIRUVARUR",
+            "State": "TAMIL NADU",
+            "District": "THIRUVARUR",
+            "PINCode": "614101",
+            "CommmenceDate": "05\/01\/2014",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 14105",
+            "TotalEmp": "2",
+            "InvestmentCost": "2.00",
+            "Dic_Name": "THIRUVARUR",
+            "RegistrationDate": "27\/05\/2019",
+            "LG_Dist_Code": "590"
+        },
+        {
+            "AID": "6852521",
+            "EnterpriseName": "Agnicut Machine Tool",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Partnership",
+            "PlantLocation": " 1) No.1A, Shed No.1 J.J Street,, Kilayanambakkam Village, ChennaiCHENNAITAMIL NADU",
+            "Address": "5\/3-3, Karuppur Main Road,, 5th Ward,, Karuppur, Salem-636012",
+            "State": "TAMIL NADU",
+            "District": "SALEM",
+            "PINCode": "636012",
+            "CommmenceDate": "13\/05\/2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 28299",
+            "TotalEmp": "5",
+            "InvestmentCost": "20.00",
+            "Dic_Name": "SALEM",
+            "RegistrationDate": "27\/05\/2019",
+            "LG_Dist_Code": "584"
+        },
+        {
+            "AID": "6852677",
+            "EnterpriseName": "Star snacks",
+            "SocialCategory": "General",
+            "Gender": "Female",
+            "PH": "No",
+            "OrganisationType": "Partnership",
+            "PlantLocation": " 1) 3\/652 ashraf kassim Ponnakudi TIRUNELVELITIRUNELVELITAMIL NADU",
+            "Address": "54 - h stc road, perumalpuram",
+            "State": "TAMIL NADU",
+            "District": "TIRUNELVELI",
+            "PINCode": "627007",
+            "CommmenceDate": "05\/04\/2019",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 10793",
+            "TotalEmp": "7",
+            "InvestmentCost": "30.00",
+            "Dic_Name": "TIRUNELVELI",
+            "RegistrationDate": "27\/05\/2019",
+            "LG_Dist_Code": "592"
+        },
+        {
+            "AID": "6852680",
+            "EnterpriseName": "SIVA PACK WOODS AND TRADERS",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) NO.111 VELAPPANCHAVADI VELAPPANCHAVADI CHENNAITHIRUVALLURTAMIL NADU",
+            "Address": "NO.111, POONAMALLEE HIGH ROAD,VELAPPANCHAVADI,CHENNAI - 600077",
+            "State": "TAMIL NADU",
+            "District": "THIRUVALLUR",
+            "PINCode": "600077",
+            "CommmenceDate": "08\/03\/2002",
+            "MajorActivity": "Manufacturing",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 16231",
+            "TotalEmp": "15",
+            "InvestmentCost": "10.00",
+            "Dic_Name": "THIRUVALLUR",
+            "RegistrationDate": "27\/05\/2019",
+            "LG_Dist_Code": "589"
+        },
+        {
+            "AID": "6852688",
+            "EnterpriseName": "T.GANGA TRANSPORT",
+            "SocialCategory": "General",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) 12\/1, T.GANGA TRANSPORT THIRUVERKADU CHENNAICHENNAITAMIL NADU",
+            "Address": "NO.12\/1, PERIYAR KOVIL STREET,(SANNTHI STREET),THIRUVERKADU,CHENNAI-77",
+            "State": "TAMIL NADU",
+            "District": "CHENNAI",
+            "PINCode": "600077",
+            "CommmenceDate": "15\/03\/2015",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Small",
+            "NIC5DigitCode": " 1) 49231",
+            "TotalEmp": "5",
+            "InvestmentCost": "15.00",
+            "Dic_Name": "CHENNAI",
+            "RegistrationDate": "27\/05\/2019",
+            "LG_Dist_Code": "568"
+        },
+        {
+            "AID": "6852704",
+            "EnterpriseName": "OM SARAVANA AUTO WORKS",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) NO.3\/70, SENGENIYAMMAN KOVIL STREET, THIRUVANMIYUR CHENNAICHENNAITAMIL NADU",
+            "Address": "No.3\/70, Sengeniyamman Kovil Street, Neelangarai, Thiruvanmiyur, Chennai - 600041",
+            "State": "TAMIL NADU",
+            "District": "CHENNAI",
+            "PINCode": "600041",
+            "CommmenceDate": "15\/01\/2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": "NA",
+            "TotalEmp": "5",
+            "InvestmentCost": "10.00",
+            "Dic_Name": "CHENNAI",
+            "RegistrationDate": "27\/05\/2019",
+            "LG_Dist_Code": "568"
+        },
+        {
+            "AID": "6852706",
+            "EnterpriseName": "SOUNDARYA TRADERS",
+            "SocialCategory": "OBC",
+            "Gender": "Male",
+            "PH": "No",
+            "OrganisationType": "Proprietary",
+            "PlantLocation": " 1) NO.27\/5 - ADAIKALAPATTINAM TIRUNELVELITIRUNELVELITAMIL NADU",
+            "Address": "NO.27\/5, NORTH STREET, ADAIKALAPATTINAM, TIRUNELVELI",
+            "State": "TAMIL NADU",
+            "District": "TIRUNELVELI",
+            "PINCode": "627808",
+            "CommmenceDate": "22\/05\/2019",
+            "MajorActivity": "Services",
+            "EnterpriseType": "Micro",
+            "NIC5DigitCode": " 1) 74909",
+            "TotalEmp": "3",
+            "InvestmentCost": "10.00",
+            "Dic_Name": "TIRUNELVELI",
+            "RegistrationDate": "27\/05\/2019",
+            "LG_Dist_Code": "592"
+        }
+    ]
+}
