@@ -1853,7 +1853,47 @@ def update_sentiment_results(n, state, district):
     ], className='shadow-sm border-0 rounded-3 bg-white mt-2')
   ])
 
+
+
 # === ANOMALY DETECTOR CALLBACKS ===
+
+def _deviation_pill(label, district_val, avg_val, unit="", higher_is_bad=None):
+  """Coloured badge showing how a district deviates from the dataset average."""
+  if avg_val == 0:
+    return None
+  pct_diff = ((district_val - avg_val) / avg_val) * 100
+  direction = "▲" if pct_diff > 0 else "▼"
+  if higher_is_bad is True:
+    color = "#dc3545" if pct_diff > 20 else ("#ffc107" if pct_diff > 0 else "#28a745")
+  elif higher_is_bad is False:
+    color = "#28a745" if pct_diff > 20 else ("#ff851b" if pct_diff > -20 else "#dc3545")
+  else:
+    color = "#6c757d"
+  return html.Span(
+    f"{label}: {district_val:.1f}{unit} ({direction}{abs(pct_diff):.0f}% vs avg {avg_val:.1f}{unit})",
+    style={
+      'backgroundColor': color + '22', 'color': color,
+      'border': f'1px solid {color}66', 'borderRadius': '20px',
+      'padding': '3px 10px', 'fontSize': '0.78rem', 'fontWeight': '600',
+      'display': 'inline-block', 'marginRight': '6px', 'marginBottom': '6px'
+    }
+  )
+
+def _severity_badge(score, min_score):
+  """Map Isolation Forest anomaly score to a severity label."""
+  rel = (score - min_score) / (abs(min_score) + 0.001)
+  if rel < 0.25:
+    return html.Span("🔴 CRITICAL", style={
+      'backgroundColor': '#dc3545', 'color': '#fff', 'borderRadius': '6px',
+      'padding': '3px 10px', 'fontSize': '0.75rem', 'fontWeight': '700'})
+  elif rel < 0.55:
+    return html.Span("🟠 HIGH", style={
+      'backgroundColor': '#fd7e14', 'color': '#fff', 'borderRadius': '6px',
+      'padding': '3px 10px', 'fontSize': '0.75rem', 'fontWeight': '700'})
+  else:
+    return html.Span("🟡 MODERATE", style={
+      'backgroundColor': '#ffc107', 'color': '#333', 'borderRadius': '6px',
+      'padding': '3px 10px', 'fontSize': '0.75rem', 'fontWeight': '700'})
 
 @app.callback(
   Output('anomaly-results', 'children'),
@@ -1863,51 +1903,187 @@ def update_sentiment_results(n, state, district):
 def update_anomaly_results(n):
   if df_anomalies.empty:
     return dbc.Alert("Not enough data to train Isolation Forest.", color="warning")
-  
-  # Prepare data for Ollama
-  anomalies_list = ""
-  for idx, row in df_anomalies.head(10).iterrows():
-    anomalies_list += f"- **{row['District']}, {row['State']}**\n"
-    
-  # ── Inject live macro context ──
+
+  top10 = df_anomalies.head(10).copy()
+
+  # ── Dataset-level averages for deviation context ──
+  avg_wer   = df_anomalies['WER'].mean()
+  avg_scst  = df_anomalies['SCST'].mean()
+  avg_inv   = df_anomalies['Inv_Unit'].mean()
+  avg_emp   = df_anomalies['Emp_Unit'].mean()
+  min_score = df_anomalies['Anomaly_Score'].min()
+
+  district_cards = []
+  anomalies_detail = ""
+
+  for i, (_, row) in enumerate(top10.iterrows(), 1):
+    dist_name  = row['District']
+    state_name = row['State']
+    wer   = row['WER']
+    scst  = row['SCST']
+    inv   = row['Inv_Unit']
+    emp   = row['Emp_Unit']
+    score = row['Anomaly_Score']
+
+    # Identify the two biggest deviations as primary drivers
+    deviations = {
+      'Female Ownership (WER)': abs(wer  - avg_wer),
+      'SC/ST Ratio':            abs(scst - avg_scst),
+      'Investment per Unit':    abs(inv  - avg_inv),
+      'Employment per Unit':    abs(emp  - avg_emp),
+    }
+    top_drivers  = sorted(deviations, key=deviations.get, reverse=True)[:2]
+    driver_text  = " & ".join(top_drivers)
+
+    pills = html.Div([
+      p for p in [
+        _deviation_pill("WER",      wer,  avg_wer,  "%"),
+        _deviation_pill("SCST",     scst, avg_scst, "%"),
+        _deviation_pill("Inv/Unit", inv,  avg_inv,  "₹L"),
+        _deviation_pill("Emp/Unit", emp,  avg_emp,  "", higher_is_bad=False),
+      ] if p is not None
+    ], className="mt-2")
+
+    metric_rows = html.Table([
+      html.Thead(html.Tr([
+        html.Th("Metric",      style={'width':'42%', 'fontSize':'0.78rem', 'color':'#888', 'fontWeight':'600', 'paddingBottom':'6px'}),
+        html.Th("District",    style={'width':'29%', 'fontSize':'0.78rem', 'color':'#888', 'fontWeight':'600', 'paddingBottom':'6px', 'textAlign':'right'}),
+        html.Th("Dataset Avg", style={'width':'29%', 'fontSize':'0.78rem', 'color':'#888', 'fontWeight':'600', 'paddingBottom':'6px', 'textAlign':'right'}),
+      ])),
+      html.Tbody([
+        html.Tr([
+          html.Td("Female Ownership (%)", style={'fontSize':'0.82rem', 'paddingTop':'4px'}),
+          html.Td(f"{wer:.1f}%",  style={'textAlign':'right', 'fontWeight':'700', 'color':'#495057', 'fontSize':'0.82rem', 'paddingTop':'4px'}),
+          html.Td(f"{avg_wer:.1f}%", style={'textAlign':'right', 'color':'#aaa', 'fontSize':'0.82rem', 'paddingTop':'4px'}),
+        ]),
+        html.Tr([
+          html.Td("SC/ST Ratio (%)", style={'fontSize':'0.82rem', 'paddingTop':'4px'}),
+          html.Td(f"{scst:.1f}%", style={'textAlign':'right', 'fontWeight':'700', 'color':'#495057', 'fontSize':'0.82rem', 'paddingTop':'4px'}),
+          html.Td(f"{avg_scst:.1f}%", style={'textAlign':'right', 'color':'#aaa', 'fontSize':'0.82rem', 'paddingTop':'4px'}),
+        ]),
+        html.Tr([
+          html.Td("Inv per Unit (₹L)", style={'fontSize':'0.82rem', 'paddingTop':'4px'}),
+          html.Td(f"{inv:.1f}",  style={'textAlign':'right', 'fontWeight':'700', 'color':'#495057', 'fontSize':'0.82rem', 'paddingTop':'4px'}),
+          html.Td(f"{avg_inv:.1f}", style={'textAlign':'right', 'color':'#aaa', 'fontSize':'0.82rem', 'paddingTop':'4px'}),
+        ]),
+        html.Tr([
+          html.Td("Emp per Unit", style={'fontSize':'0.82rem', 'paddingTop':'4px'}),
+          html.Td(f"{emp:.1f}",  style={'textAlign':'right', 'fontWeight':'700', 'color':'#495057', 'fontSize':'0.82rem', 'paddingTop':'4px'}),
+          html.Td(f"{avg_emp:.1f}", style={'textAlign':'right', 'color':'#aaa', 'fontSize':'0.82rem', 'paddingTop':'4px'}),
+        ]),
+      ])
+    ], style={'width':'100%', 'borderCollapse':'collapse'})
+
+    district_cards.append(
+      dbc.Card([
+        dbc.CardBody([
+          # Header row: rank + name + severity badge
+          html.Div([
+            html.Div([
+              html.Span(f"#{i}", style={
+                'fontSize':'1.1rem', 'fontWeight':'800',
+                'color':'#dc3545', 'marginRight':'10px'
+              }),
+              html.Strong(dist_name, style={'fontSize':'1rem', 'color':'#212529'}),
+              html.Span(f", {state_name}", style={'fontSize':'0.88rem', 'color':'#6c757d'}),
+            ], className="d-flex align-items-center"),
+            _severity_badge(score, min_score)
+          ], className="d-flex justify-content-between align-items-start mb-3"),
+
+          # Primary driver line
+          html.Div([
+            html.Span("Primary Driver: ", style={'fontSize':'0.78rem', 'color':'#888', 'fontWeight':'600'}),
+            html.Span(driver_text, style={'fontSize':'0.78rem', 'color':'#dc3545', 'fontWeight':'700'}),
+          ], className="mb-2"),
+
+          pills,
+          html.Hr(className="my-3 opacity-25"),
+          metric_rows,
+        ], className="p-3")
+      ], className="shadow-sm border-0 rounded-3 mb-3 bg-white",
+         style={'borderLeft': '4px solid #dc354566'})
+    )
+
+    # Build rich per-district context for the Ollama prompt
+    anomalies_detail += (
+      f"### {i}. {dist_name}, {state_name}\n"
+      f"- Anomaly Score: {score:.4f}  (more negative = more isolated = more anomalous)\n"
+      f"- Female Ownership %: {wer:.1f}%  (dataset avg: {avg_wer:.1f}%)\n"
+      f"- SC/ST Ratio %: {scst:.1f}%  (dataset avg: {avg_scst:.1f}%)\n"
+      f"- Investment per MSME unit (₹L): {inv:.1f}  (dataset avg: {avg_inv:.1f})\n"
+      f"- Employment per MSME unit: {emp:.1f}  (dataset avg: {avg_emp:.1f})\n"
+      f"- Primary statistical driver: {driver_text}\n\n"
+    )
+
+  # ── Ollama prompt with full metric context ──
   live_macro_block = live_data.macro_prompt_block()
-
   prompt = (
-    "Act as an expert MSME Intelligence Officer.\n\n"
-    "A machine learning Isolation Forest algorithm flagged these top 10 districts "
-    "as severe statistical outliers in our dataset:\n"
-    f"{anomalies_list}\n"
-    "The dataset may contain missing values (e.g. 0% female ownership or 0 investment) "
-    "which triggered flags. DO NOT rely blindly on those zero values.\n\n"
+    "You are an expert MSME Intelligence Officer writing an official outlier audit.\n\n"
+    "An Isolation Forest ML model flagged the following districts as severe statistical outliers. "
+    "Their actual metric values AND how they compare to the dataset average are listed:\n\n"
+    f"{anomalies_detail}\n"
+    "IMPORTANT: Some zeros may reflect data reporting gaps rather than true zero activity. "
+    "Use real-world knowledge to distinguish data gaps from genuine structural anomalies.\n\n"
     f"{live_macro_block}\n"
-    "Using BOTH your real-world knowledge of Indian districts AND the live macro context above, "
-    "provide a professional audit of each flagged district's ACTUAL industrial profile, "
-    "known MSME clusters, and REAL economic bottlenecks. Where relevant, compare district "
-    "conditions against live national benchmarks (e.g., national credit penetration, "
-    "unemployment rate, GDP growth). Structure your response clearly in Markdown."
+    "For EACH district write 3-5 sentences that:\n"
+    "1. Identify the specific metric(s) that isolated it and explain the economic meaning of that deviation.\n"
+    "2. Link the anomaly to known real-world conditions (industry clusters, geography, demographics).\n"
+    "3. Recommend one targeted policy action grounded in the live national macro context above.\n"
+    "Format each district as a markdown ### heading. Be precise and analytical."
   )
-
   ai_report = get_ollama_insight(prompt)
-  
+
   return html.Div([
+    # ── Scan Banner ──
     dbc.Alert([
       html.Div([
         html.I(className="bi bi-shield-exclamation text-danger fs-4 me-3"),
         html.Div([
-          html.Strong(f"Anomaly Scan Complete. "),
-          html.Span(f"Detected {len(df_anomalies)} statistically anomalous districts demanding targeted policy intervention.")
+          html.Strong("Anomaly Scan Complete — "),
+          html.Span(
+            f"Isolation Forest identified {len(df_anomalies)} statistical outliers across the dataset. "
+            "Top 10 most anomalous districts are expanded below with feature-level explanations."
+          )
         ])
       ], className="d-flex align-items-center")
-    ], color="white", className="shadow-sm border-0 border-start py-3 mb-4 rounded-3", style={'borderLeftWidth': '5px !important', 'borderLeftColor': '#dc3545 !important'}),
-    
-    html.H5([html.I(className="bi bi-file-earmark-medical me-2"), " AI Intelligence: Outlier Diagnosis Report"], className="mt-4 mb-3 fw-bold text-danger"),
-    
+    ], color="white", className="shadow-sm border-0 py-3 mb-4 rounded-3",
+       style={'borderLeft': '5px solid #dc3545'}),
+
+    # ── Model Explanation Card ──
     dbc.Card([
       dbc.CardBody([
-        dcc.Markdown(ai_report, style={'lineHeight': '1.7', 'fontSize': '0.95rem', 'color': '#333'})
+        html.H6([
+          html.I(className="bi bi-info-circle me-2 text-primary"),
+          html.Strong("How Isolation Forest Explains Outliers")
+        ], className="text-dark mb-2"),
+        html.P([
+          "The model was trained on 4 district-level features: ",
+          html.Strong("Female Ownership % (WER), SC/ST Ratio %, "
+                      "Investment per MSME unit (₹L), and Employment per unit. "),
+          "Districts that blend in with the majority receive a score near 0. "
+          "Districts that are extreme on one or more dimensions are easily isolated and "
+          "receive large negative scores — those are flagged as outliers. "
+          "The coloured deviation pills on each card show exactly which feature(s) "
+          "pushed the district outside the normal range."
+        ], className="text-muted small mb-0", style={'lineHeight': '1.6'})
+      ], className="p-3")
+    ], className="bg-light border-0 rounded-3 mb-4 shadow-sm"),
+
+    # ── Per-District Breakdown ──
+    html.H5([html.I(className="bi bi-diagram-3 me-2"), " District-Level Outlier Breakdown"],
+            className="fw-bold text-danger mb-3"),
+    html.Div(district_cards),
+
+    # ── AI Diagnosis Report ──
+    html.H5([html.I(className="bi bi-file-earmark-medical me-2"), " AI Outlier Diagnosis Report"],
+            className="fw-bold text-dark mt-4 mb-3"),
+    dbc.Card([
+      dbc.CardBody([
+        dcc.Markdown(ai_report, style={'lineHeight': '1.75', 'fontSize': '0.95rem', 'color': '#333'})
       ], className="p-4")
     ], className="shadow-sm border-0 rounded-3 bg-white")
   ])
+
 
 # === POLICY SIMULATOR CALLBACKS ===
 
